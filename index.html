@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.0</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.0.2</title><style>
 :root{color-scheme:dark;--bg:#101a26;--paper:#172637;--panel:#1b2e42;--line:#395066;--text:#edf0ec;--muted:#b5c2ca;--gold:#d6b985;--mint:#99b8a9}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#24384b 0,#101a26 60%);color:var(--text);font-family:"Yu Mincho","Hiragino Mincho ProN", "Noto Serif JP",serif;line-height:2}main{max-width:900px;margin:auto;padding:28px 18px 88px}header{border-bottom:1px solid var(--line);padding:30px 0 24px}h1{font-size:clamp(29px,5vw,45px);letter-spacing:.15em;line-height:1.55;margin:12px 0}h2{font-size:25px;font-weight:500;letter-spacing:.12em;margin:0 0 20px;color:#f2dfbd}h3{font-size:18px;color:var(--gold)}p{margin:0 0 1.15em;white-space:pre-line}button,select,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #6b7d8c;background:#22394b;color:var(--text);border-radius:7px;padding:12px 18px;line-height:1.5;text-align:left}button:hover{background:#304c5e;border-color:#c4ab80}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e1c288;outline-offset:2px}button:disabled{opacity:.35;cursor:not-allowed}.primary{background:#85704f;border-color:#bd9f71;color:#fff;font-weight:700}.primary:hover{background:#a0875b}.small{font-size:13px;padding:6px 10px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.2em}.muted{color:var(--muted)}.card{border:1px solid var(--line);background:#172637e8;border-radius:12px;padding:clamp(20px,5vw,38px);margin-top:24px;box-shadow:0 10px 40px #0002}.subcard{background:#1b3042;border:1px solid #3d5565;border-radius:9px;padding:18px;margin:18px 0}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.choices{display:grid;gap:12px;margin:24px 0}.choices button{width:100%;padding:16px 20px}.tag{display:inline-block;border:1px solid #7e806f;border-radius:30px;padding:2px 12px;font-size:12px;color:var(--gold);margin:0 7px 6px 0}.divider{border-top:1px solid var(--line);margin:26px 0}.topbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.meter{height:5px;background:#33495b;border-radius:10px;overflow:hidden;margin:20px 0 0}.meter span{display:block;background:var(--gold);height:100%;transition:width .4s}label{display:block;color:var(--muted);font-size:14px;margin:14px 0 6px}input,select,textarea{border-radius:7px;border:1px solid #587082;background:#102030;color:var(--text);padding:10px 12px;max-width:100%;width:100%}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.note{background:#293a46;border-left:3px solid var(--gold);padding:14px 18px;margin:20px 0;color:#dde4e5}.quote{font-size:19px;color:#f2dfbd;padding:18px 22px;border-left:2px solid #9f8764;margin:25px 0;background:#213246}.rpbox{border-top:1px solid var(--line);margin-top:32px;padding-top:22px}.rpbox textarea{min-height:95px;resize:vertical;line-height:1.7}.rpbox button{white-space:nowrap}.rpbox .rphelp{font-size:12px;color:var(--muted)}.rpdisplay{border-left:3px solid var(--rp-color,#cb415a);padding:9px 13px;margin:9px 0;background:#132333}.rpdisplay strong{color:var(--rp-color,#cb415a)}.hidden{display:none}.footer{margin-top:30px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.log{color:#a6bcc3;font-size:13px}.clue{color:#a7d4c4;font-size:13px}.stat{display:inline-block;padding:4px 11px;background:#284356;border-radius:6px;margin-right:7px;font-size:14px}details{margin:16px 0}summary{cursor:pointer;color:var(--gold)}@media(max-width:600px){main{padding:12px 12px 70px}.card{margin-top:15px}body{line-height:1.85}}.player-avatar{width:44px;height:44px;object-fit:cover;border-radius:9px;border:1px solid #728398;flex-shrink:0}.player-avatar.large{width:58px;height:58px}.player-choice{display:flex;align-items:center;gap:14px}.player-choice-text{flex:1}.active-character{display:flex;align-items:center;gap:13px;margin:0 0 22px;padding:12px 14px;background:#132435;border:1px solid #354d60;border-radius:10px}.active-character .who-name{font-weight:bold;font-size:16px}.rp-profile{display:flex;align-items:center;gap:12px}.rpdisplay{display:flex;align-items:flex-start;gap:10px}.rpdisplay .player-avatar{width:36px;height:36px}.rpdisplay .rp-content{min-width:0;flex:1}.rp-recent{margin-top:15px}.rp-recent-title{font-size:13px;color:var(--muted);margin:0 0 7px}.rpdisplay p{margin:4px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}@media(max-width:600px){.player-choice{gap:10px}.player-avatar.large{width:48px;height:48px}}
 /* ココフォリア風ダークUI：独自再現スタイル。ゲームロジックは変更しない。 */
 :root{color-scheme:dark;--bg:#16171b;--paper:#24252b;--panel:#303137;--line:#45464d;--text:#f4f4f5;--muted:#b5b5bc;--gold:#dddde1;--mint:#85cab4}
@@ -421,7 +421,77 @@ body.theme-light .reader-controls .reader-label{color:#485768}
 body.theme-light .scene-placebar{color:#263744;border-color:#aab9c0;background:rgba(247,247,243,.94)}
 body.theme-light .save-indicator{color:#455765}
 body.theme-light .rp-help,body.theme-light .rphelp{color:#4d5c69}
-</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="notesOpen" onclick="openNotes()">捜査ノート</button><button class="small" id="dossierOpen" onclick="openDossier()" hidden>調査資料を開く・比較する</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="notesOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="notesTitle" onclick="if(event.target===this)closeNotes()"><div class="dossier-window notes-window" tabindex="-1"><div class="dossier-head"><h2 id="notesTitle">捜査ノート</h2><button type="button" class="small" onclick="closeNotes()">閉じる ×</button></div><p class="muted notes-help">考察や推理を自由に記録できます。探索者ごとに保存され、セーブデータにも含まれます。本文やログには自動投稿されません。</p><div id="notesContents"></div></div></div><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">調べた資料だけが追加されます。資料は何件でも選択でき、PCでは2列、スマホでは縦に並べて読み比べられます。ここでの操作は判定やログを変更しません。</p><div id="dossierContents"></div></div></div><script>
+
+/* v8.0.1: 発言カードの操作を専用領域に収め、タッチ操作時の重なりを防ぐ */
+.rp-inline:not(.rp-drag-ghost){padding-right:12px}
+.rp-controls{display:flex;align-items:flex-start;gap:6px;flex:0 0 auto;margin-left:auto}
+.rp-controls .rp-delete{position:static;right:auto;top:auto;flex:0 0 auto}
+.rp-controls .rp-edit-mobile{position:static;right:auto;top:auto;flex:0 0 auto}
+.rp-controls .rp-step-actions{margin-left:0}
+@media (max-width:700px), (pointer:coarse){
+ .rp-inline:not(.rp-drag-ghost){display:grid;grid-template-columns:45px 31px minmax(0,1fr);gap:7px;padding:10px 9px;margin:10px 0;align-items:start}
+ .rp-inline .rp-grip{grid-column:1;grid-row:1;min-width:0;width:45px;min-height:52px;align-self:start}
+ .rp-inline .player-avatar{grid-column:2;grid-row:1;width:31px;height:31px}
+ .rp-inline .rp-content{grid-column:3;grid-row:1;min-width:0}
+ .rp-inline .rp-controls{grid-column:1 / -1;grid-row:2;width:100%;display:flex;justify-content:flex-end;align-items:center;gap:7px;margin:3px 0 0;padding-top:8px;border-top:1px solid var(--ui-border,#5f626b)}
+ .rp-inline .rp-step-actions{display:flex;flex-direction:row;gap:7px;margin-right:auto}
+ .rp-inline .rp-controls button{box-sizing:border-box;position:static;min-width:44px;min-height:44px;height:44px;padding:6px 9px;line-height:1.2;white-space:nowrap}
+ .rp-inline .rp-controls .rp-edit-mobile{display:flex;width:auto;min-width:56px}
+ .rp-inline .rp-delete{width:44px;font-size:21px}
+ .rp-inline.rp-editing .rp-controls{display:none}
+}
+@media (max-width:365px){
+ .rp-inline:not(.rp-drag-ghost){grid-template-columns:39px 27px minmax(0,1fr);gap:5px}
+ .rp-inline .rp-grip{width:39px}
+ .rp-inline .player-avatar{width:27px;height:27px}
+ .rp-inline .rp-controls{gap:5px}
+ .rp-inline .rp-step-actions{gap:5px}
+ .rp-inline .rp-controls button{min-width:42px;padding:6px 7px}
+ .rp-inline .rp-controls .rp-edit-mobile{min-width:48px}
+}
+
+/* v8.0.2 入手情報の自動整理、ライトテーマの見出しの明瞭化 */
+.records-overview{display:flex;gap:10px;margin-bottom:16px}
+.records-overview>div{flex:1;min-width:0;border:1px solid var(--ui-border,#555e6d);background:var(--sub-glass,#303540);border-radius:9px;padding:10px 14px;display:flex;flex-direction:column;line-height:1.55}
+.records-overview strong{font-size:17px;color:var(--page-text,#f5f5f6);overflow-wrap:anywhere}
+.records-overview span{font-size:12px;color:var(--page-muted,#c4c6ca)}
+.records-toolbar{margin:0 0 14px}.records-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.records-filters button.records-filter{padding:8px 13px;min-height:40px;font-size:13px;border-radius:25px}
+.records-filters button.records-filter.active{background:#516987;color:#fff;border-color:#9db3cd}
+.records-search-label{font-size:13px;font-weight:700;color:var(--page-text,#f3f4f6);margin:0 0 5px}
+#recordsSearch{width:100%;min-height:45px}
+.records-count{font-size:12px;color:var(--page-muted,#c0c5d0);margin:0 0 10px}
+.records-list{display:grid;gap:10px;align-content:start}
+.record-item{margin:0;border:1px solid var(--ui-border,#586170);background:var(--sub-glass,#2d3540);border-radius:10px;overflow:hidden}
+.record-item>summary{display:flex;gap:10px;align-items:center;padding:13px 14px;list-style:none;min-height:52px;line-height:1.5;cursor:pointer;color:var(--page-text,#f6f7fa)}
+.record-item>summary::-webkit-details-marker{display:none}
+.record-kind{font:700 11px/1.4 system-ui,sans-serif;flex:none;min-width:38px;text-align:center;background:#415164;color:#f9fafc;padding:5px 7px;border-radius:5px}
+.record-title{flex:1;min-width:0;font-size:15px;font-weight:750;overflow-wrap:anywhere}
+.record-toggle{font:700 21px/1 system-ui;flex:none;color:var(--page-muted,#dadce5)}
+.record-item[open] .record-toggle{transform:rotate(45deg)}
+.record-content{padding:14px 16px 17px;border-top:1px solid var(--ui-border,#586170);font-size:14px;line-height:1.85;color:var(--page-text,#eee)}
+.record-content>p{white-space:pre-line;overflow-wrap:anywhere;margin:0 0 12px}
+.record-finding{border-left:3px solid #90a7c4;background:rgba(115,136,160,.13);padding:10px 12px;margin-top:12px;border-radius:0 6px 6px 0}
+.record-finding strong{font-size:13px;color:var(--page-text,#eee)}
+.record-finding p{margin:5px 0 0;white-space:pre-line;overflow-wrap:anywhere;color:var(--page-text,#eee)}
+.records-empty{padding:25px 17px;border:1px dashed var(--ui-border,#6d7784);border-radius:8px;line-height:1.7;color:var(--page-muted,#c9cbd2)}
+/* 明るい背景に白・灰色系の見出しが沈まないよう、コントラストを確保。 */
+body.theme-light #app h2,body.theme-light #app h3,body.theme-light #notesOverlay h2,body.theme-light #notesOverlay h3,body.theme-light #dossierOverlay h2{color:#263442!important}
+body.theme-light #app .eyebrow{color:#435b72!important;font-weight:750}
+body.theme-light #notesOverlay .notes-help{color:#455360!important}
+body.theme-light .dossier-head{background:#f7f5ee!important;color:#263442!important}
+body.theme-light .dossier-head button{background:#edf0ef!important;color:#273745!important;border-color:#b7c0c5!important}
+body.theme-light .record-item{background:#fffefa;border-color:#bac4ca}
+body.theme-light .record-item>summary,body.theme-light .record-title,body.theme-light .record-content,body.theme-light .record-finding p{color:#263442!important}
+body.theme-light .record-kind{background:#dfe9ee;color:#2b455b}
+body.theme-light .record-toggle{color:#354b5b}
+body.theme-light .record-finding{background:#e9eff0;border-left-color:#57768c}
+body.theme-light .record-finding strong,body.theme-light .records-search-label,body.theme-light .records-overview strong{color:#253644!important}
+body.theme-light .records-filters button.records-filter.active{background:#375b76!important;color:#fff!important;border-color:#375b76!important}
+body.theme-light .records-overview>div{background:#eef1ed;border-color:#c1c9cb}
+body.theme-light .records-count{color:#435565}
+@media(max-width:600px){.record-item>summary{padding:12px 10px;gap:7px}.record-title{font-size:14px}.record-content{padding:12px 13px}.records-overview>div{padding:9px}.records-filters button.records-filter{flex:1;min-width:55px;padding:8px 7px}}
+</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="notesOpen" onclick="openNotes()">入手情報・捜査記録</button><button class="small" id="dossierOpen" onclick="openDossier()" hidden>調査資料を開く・比較する</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="notesOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="notesTitle" onclick="if(event.target===this)closeNotes()"><div class="dossier-window notes-window" tabindex="-1"><div class="dossier-head"><h2 id="notesTitle">入手情報・捜査記録</h2><button type="button" class="small" onclick="closeNotes()">閉じる ×</button></div><p class="muted notes-help">捜査で実際に確認した情報だけが、自動で追加されます。資料・証言・現場・判定を整理して読み返せます。未確認の情報は表示されません。</p><div id="notesContents"></div></div></div><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">調べた資料だけが追加されます。資料は何件でも選択でき、PCでは2列、スマホでは縦に並べて読み比べられます。ここでの操作は判定やログを変更しません。</p><div id="dossierContents"></div></div></div><script>
 'use strict';
 const KEY='yohaku_kpless_solo_v1_6_character_select';
 const fresh=()=>({diceVisuals:{},investigationNotes:{},pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
@@ -494,7 +564,7 @@ function sceneRPItems(){
 }
 function inlineRPMarkup(e,i){
  const color=CHARACTERS[S.character]?.color||S.rpColor||'#cb415a';
- return `<div class="rpdisplay rp-inline" draggable="false" data-rp-id="${h(e.rpId||'legacy-'+i)}" data-rp-index="${i}" style="--rp-color:${color}" title="ダブルクリックで発言を編集"><span class="rp-grip" role="button" tabindex="0" aria-label="発言を移動する。スマホではここを掴んで動かします。キーボードでは編集します" title="ここを掴んで移動">⠿<span class="rp-grip-label">移動</span></span>${playerAvatar(S.character)}<div class="rp-content"><strong style="color:${color}">${h(e.name)}</strong><p>${h(e.text)}</p></div><span class="rp-step-actions"><button type="button" aria-label="この発言を本文内でひとつ上に移動" title="上へ移動" onclick="stepRP(${i},-1)">↑</button><button type="button" aria-label="この発言を本文内でひとつ下に移動" title="下へ移動" onclick="stepRP(${i},1)">↓</button></span><button type="button" class="rp-edit-mobile" aria-label="この発言を編集" onclick="beginEditRP(this.closest('.rp-inline'))">編集</button><button type="button" class="rp-delete" aria-label="この発言を削除" title="この発言を削除" onclick="deleteRP(${i})">×</button></div>`;
+ return `<div class="rpdisplay rp-inline" draggable="false" data-rp-id="${h(e.rpId||'legacy-'+i)}" data-rp-index="${i}" style="--rp-color:${color}" title="ダブルクリックで発言を編集"><span class="rp-grip" role="button" tabindex="0" aria-label="発言を移動する。スマホではここを掴んで動かします。キーボードでは編集します" title="ここを掴んで移動">⠿<span class="rp-grip-label">移動</span></span>${playerAvatar(S.character)}<div class="rp-content"><strong style="color:${color}">${h(e.name)}</strong><p>${h(e.text)}</p></div><div class="rp-controls" role="group" aria-label="この発言の操作"><span class="rp-step-actions"><button type="button" aria-label="この発言を本文内でひとつ上に移動" title="上へ移動" onclick="stepRP(${i},-1)">↑</button><button type="button" aria-label="この発言を本文内でひとつ下に移動" title="下へ移動" onclick="stepRP(${i},1)">↓</button></span><button type="button" class="rp-edit-mobile" aria-label="この発言を編集" onclick="beginEditRP(this.closest('.rp-inline'))">編集</button><button type="button" class="rp-delete" aria-label="この発言を削除" title="この発言を削除" onclick="deleteRP(${i})">×</button></div></div>`;
 }
 function deleteRP(i){
  if(!Number.isInteger(i)||!S.logEntries?.[i]?.rp)return;
@@ -1591,14 +1661,44 @@ function closeNotes(){
  document.getElementById('notesOverlay').hidden=true;
  if(notesPreviousFocus?.isConnected)notesPreviousFocus.focus();
 }
-function renderNotes(){
- const docs=dossierDocuments();const notes=noteStore();
- const items=[{id:'free',title:'自由メモ',hint:'仮説・疑問・次に調べたいこと'}].concat(docs.map(d=>({id:d.id,title:d.title,hint:'この資料についての考察'})));
- document.getElementById('notesContents').innerHTML=items.map(item=>`<section class="notes-section"><h3>${h(item.title)}</h3><label for="note-${h(item.id)}">${h(item.hint)}</label><textarea id="note-${h(item.id)}" data-note-key="${h(item.id)}" placeholder="ここにメモを入力（自動保存）">${h(notes[item.id]||'')}</textarea><div class="notes-save-indicator" id="notesSaved-${h(item.id)}">入力内容は自動保存されます</div></section>`).join('');
+// v8.0.2: 捜査ノートを、実際に得た証拠と証言を振り返る記録台帳へ。
+let notesFilter='all',notesQuery='';
+function investigationRecords(){
+ const records=dossierDocuments().map(d=>{
+  const group=d.id.startsWith('archive-')?'資料':d.id==='witness'?'証言':d.id==='site'?'現場':'判定';
+  return {id:d.id,group,title:d.title,body:d.body,detail:d.note};
+ });
+ // 聞き取った内容はその選択肢を開いたときだけ追加する。
+ for(const dialogue of getDialogues()){
+  if(!(S.spoken||[]).includes(dialogue.id))continue;
+  records.push({id:'testimony-'+dialogue.id,group:'証言',title:'聞き取り｜'+dialogue.title,body:dialogue.text,detail:dialogue.memo});
+ }
+ return records;
 }
-document.addEventListener('input',e=>{
- if(e.target?.matches?.('[data-note-key]'))updateNote(e.target.dataset.noteKey,e.target.value);
-});
+function setNotesFilter(group){notesFilter=group;renderNotes();}
+function setNotesQuery(value){notesQuery=String(value||'');renderNotesContents();}
+function renderNotes(){
+ const count=investigationRecords().length;
+ const categories=['all','資料','証言','現場','判定'];
+ $('notesContents').innerHTML=`<div class="records-overview"><div><strong>${count}件</strong><span>確認済みの記録</span></div><div><strong>${h(R().district)}</strong><span>${h(S.character? (S.name1||'探索者'):'探索開始前')}</span></div></div>
+ <div class="records-toolbar"><div class="records-filters" role="group" aria-label="情報の種類">${categories.map(group=>`<button type="button" class="records-filter${notesFilter===group?' active':''}" aria-pressed="${notesFilter===group}" onclick="setNotesFilter('${group}')">${group==='all'?'すべて':group}</button>`).join('')}</div>
+ <label class="records-search-label" for="recordsSearch">記録を検索</label><input type="search" id="recordsSearch" autocomplete="off" placeholder="資料名・人物・時刻・キーワード" value="${h(notesQuery)}" oninput="setNotesQuery(this.value)"></div>
+ <div id="notesRecordList" class="records-list" aria-live="polite"></div>`;
+ renderNotesContents();
+}
+function renderNotesContents(){
+ const list=$('notesRecordList');if(!list)return;
+ const all=investigationRecords();
+ const word=notesQuery.trim().toLocaleLowerCase();
+ const matched=all.filter(d=>(notesFilter==='all'||notesFilter===d.group)&&(!word||[d.title,d.body,d.detail,d.group].join(' ').toLocaleLowerCase().includes(word)));
+ list.innerHTML=matched.length?`<p class="records-count">${matched.length}件を表示／全${all.length}件</p>`+matched.map(d=>`<details class="record-item"><summary><span class="record-kind">${h(d.group)}</span><span class="record-title">${h(d.title)}</span><span class="record-toggle" aria-hidden="true">＋</span></summary><div class="record-content"><p>${h(d.body)}</p>${d.detail?`<div class="record-finding"><strong>確認できたこと</strong><p>${h(d.detail)}</p></div>`:''}</div></details>`).join(''):
+ `<div class="records-empty">${all.length?'この条件に一致する記録はありません。種類を切り替えるか、検索語を変更してください。':'まだ入手した情報はありません。調査を進め、資料や証言を確認すると自動で追加されます。'}</div>`;
+ // 以前のバージョンで書いたメモは消去せず、必要なときだけ確認できる。
+ if(notesFilter==='all'&&!word){
+  const old=Object.entries(noteStore()).filter(([key,value])=>String(value||'').trim());
+  if(old.length)list.insertAdjacentHTML('beforeend',`<details class="record-item record-legacy"><summary><span class="record-kind">旧メモ</span><span class="record-title">以前に入力したメモ（${old.length}件）</span><span class="record-toggle">＋</span></summary><div class="record-content">${old.map(([key,value])=>`<div class="record-finding"><strong>${h(key==='free'?'自由メモ':(all.find(d=>d.id===key)?.title||key))}</strong><p>${h(value)}</p></div>`).join('')}</div></details>`);
+ }
+}
 function openDossier(){
  if(!dossierAvailable())return;
  dossierPreviousFocus=document.activeElement;
@@ -1676,7 +1776,7 @@ function refreshSceneBackdrop(){
 }
 
 function render(){updateReaderControls();applyTheme();refreshSceneBackdrop();let map={setup:settings,intro,archive,hall,witness,threshold,deduction,echo,choice,end,after,pair};$('app').innerHTML=historyBar()+'<div id="storyContent">'+(S.phase!=='setup'&&S.phase!=='pair'&&CHARACTERS[S.character]?`<div class="active-character" style="--rp-color:${CHARACTERS[S.character].color}">${playerAvatar(S.character)}<span><span class="who-name" style="color:${CHARACTERS[S.character].color}">${h(CHARACTERS[S.character].name)}</span><br><span class="muted" style="font-size:12px">${h(R().district)}・個別捜査記録</span></span></div>`:'')+(map[S.phase]||settings)()+'</div>'+rpWidget();$('progress').style.width=progress()+'%';$('headProgress').textContent=stage();if($('saveStatus'))$('saveStatus').textContent=S.phase==='setup'?'開始前・設定は自動保存されます':'自動保存中：'+(S.name1||'探索者')+'／'+stage()+'（次回もここから再開）';if($('logStyle'))$('logStyle').value=['json','new','old'].includes(S.logStyle)?S.logStyle:'json';if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';if($('dossierOpen'))$('dossierOpen').hidden=!dossierAvailable();if(!$('notesOverlay').hidden)renderNotes();if(!$('dossierOverlay').hidden)renderDossier();placeInlineRP();sceneSnapshot();restoreInlineDiceResult();soundUI();updateAmbientScene();}
-function showHow(){alert('【遊び方】\n2026年10月30日の通常勤務中に、所属先で別々の記録を扱うソロシナリオです。別の探索者が同時にもうひとつの地域を選んで通過しても矛盾しません。\n画面に出る文章を読み、選択肢を押して進みます。選んだ箇所は自動保存されます。\nSANチェックは画面で判定・記録できます。\n場面の間に探索者自身のRPを挟んでも構いません。捜査ノートでは自由に推理を記録できます。\n場所と時刻は情景画像の下に表示されます。音声は上部のボタンでON/OFFできます（初期OFF）。\n技能ロール01～05はクリティカル、96～100はファンブルです。CF技能は終了時に成長判定ができます。')}
+function showHow(){alert('【遊び方】\n2026年10月30日の通常勤務中に、所属先で別々の記録を扱うソロシナリオです。別の探索者が同時にもうひとつの地域を選んで通過しても矛盾しません。\n画面に出る文章を読み、選択肢を押して進みます。選んだ箇所は自動保存されます。\nSANチェックは画面で判定・記録できます。\n場面の間に探索者自身のRPを挟んでも構いません。入手情報・捜査記録から、確認済みの資料や証言を読み返せます。\n場所と時刻は情景画像の下に表示されます。音声は上部のボタンでON/OFFできます（初期OFF）。\n技能ロール01～05はクリティカル、96～100はファンブルです。CF技能は終了時に成長判定ができます。')}
 function downloadFile(name,contents,type){const a=document.createElement('a');const url=URL.createObjectURL(new Blob([contents],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),4000)}
 function orderedLogEntries(){
  const all=Array.isArray(S.logEntries)?S.logEntries:[];
