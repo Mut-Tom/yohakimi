@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.3</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.6.2</title><style>
 :root{color-scheme:dark;--bg:#101a26;--paper:#172637;--panel:#1b2e42;--line:#395066;--text:#edf0ec;--muted:#b5c2ca;--gold:#d6b985;--mint:#99b8a9}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#24384b 0,#101a26 60%);color:var(--text);font-family:"Yu Mincho","Hiragino Mincho ProN", "Noto Serif JP",serif;line-height:2}main{max-width:900px;margin:auto;padding:28px 18px 88px}header{border-bottom:1px solid var(--line);padding:30px 0 24px}h1{font-size:clamp(29px,5vw,45px);letter-spacing:.15em;line-height:1.55;margin:12px 0}h2{font-size:25px;font-weight:500;letter-spacing:.12em;margin:0 0 20px;color:#f2dfbd}h3{font-size:18px;color:var(--gold)}p{margin:0 0 1.15em;white-space:pre-line}button,select,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #6b7d8c;background:#22394b;color:var(--text);border-radius:7px;padding:12px 18px;line-height:1.5;text-align:left}button:hover{background:#304c5e;border-color:#c4ab80}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e1c288;outline-offset:2px}button:disabled{opacity:.35;cursor:not-allowed}.primary{background:#85704f;border-color:#bd9f71;color:#fff;font-weight:700}.primary:hover{background:#a0875b}.small{font-size:13px;padding:6px 10px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.2em}.muted{color:var(--muted)}.card{border:1px solid var(--line);background:#172637e8;border-radius:12px;padding:clamp(20px,5vw,38px);margin-top:24px;box-shadow:0 10px 40px #0002}.subcard{background:#1b3042;border:1px solid #3d5565;border-radius:9px;padding:18px;margin:18px 0}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.choices{display:grid;gap:12px;margin:24px 0}.choices button{width:100%;padding:16px 20px}.tag{display:inline-block;border:1px solid #7e806f;border-radius:30px;padding:2px 12px;font-size:12px;color:var(--gold);margin:0 7px 6px 0}.divider{border-top:1px solid var(--line);margin:26px 0}.topbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.meter{height:5px;background:#33495b;border-radius:10px;overflow:hidden;margin:20px 0 0}.meter span{display:block;background:var(--gold);height:100%;transition:width .4s}label{display:block;color:var(--muted);font-size:14px;margin:14px 0 6px}input,select,textarea{border-radius:7px;border:1px solid #587082;background:#102030;color:var(--text);padding:10px 12px;max-width:100%;width:100%}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.note{background:#293a46;border-left:3px solid var(--gold);padding:14px 18px;margin:20px 0;color:#dde4e5}.quote{font-size:19px;color:#f2dfbd;padding:18px 22px;border-left:2px solid #9f8764;margin:25px 0;background:#213246}.rpbox{border-top:1px solid var(--line);margin-top:32px;padding-top:22px}.rpbox textarea{min-height:95px;resize:vertical;line-height:1.7}.rpbox button{white-space:nowrap}.rpbox .rphelp{font-size:12px;color:var(--muted)}.rpdisplay{border-left:3px solid var(--rp-color,#cb415a);padding:9px 13px;margin:9px 0;background:#132333}.rpdisplay strong{color:var(--rp-color,#cb415a)}.hidden{display:none}.footer{margin-top:30px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.log{color:#a6bcc3;font-size:13px}.clue{color:#a7d4c4;font-size:13px}.stat{display:inline-block;padding:4px 11px;background:#284356;border-radius:6px;margin-right:7px;font-size:14px}details{margin:16px 0}summary{cursor:pointer;color:var(--gold)}@media(max-width:600px){main{padding:12px 12px 70px}.card{margin-top:15px}body{line-height:1.85}}.player-avatar{width:44px;height:44px;object-fit:cover;border-radius:9px;border:1px solid #728398;flex-shrink:0}.player-avatar.large{width:58px;height:58px}.player-choice{display:flex;align-items:center;gap:14px}.player-choice-text{flex:1}.active-character{display:flex;align-items:center;gap:13px;margin:0 0 22px;padding:12px 14px;background:#132435;border:1px solid #354d60;border-radius:10px}.active-character .who-name{font-weight:bold;font-size:16px}.rp-profile{display:flex;align-items:center;gap:12px}.rpdisplay{display:flex;align-items:flex-start;gap:10px}.rpdisplay .player-avatar{width:36px;height:36px}.rpdisplay .rp-content{min-width:0;flex:1}.rp-recent{margin-top:15px}.rp-recent-title{font-size:13px;color:var(--muted);margin:0 0 7px}.rpdisplay p{margin:4px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}@media(max-width:600px){.player-choice{gap:10px}.player-avatar.large{width:48px;height:48px}}
 /* ココフォリア風ダークUI：独自再現スタイル。ゲームロジックは変更しない。 */
 :root{color-scheme:dark;--bg:#16171b;--paper:#24252b;--panel:#303137;--line:#45464d;--text:#f4f4f5;--muted:#b5b5bc;--gold:#dddde1;--mint:#85cab4}
@@ -691,13 +691,143 @@ body.theme-light .dossier-timeline .dossier-entry:before{background:#6a8293;bord
 /* v8.2.1: character-name colors are fixed to their reference palettes in both themes. */
 #app .who-name[style*="#cb415a"],#app .player-choice-text strong[style*="#cb415a"],#app span[style*="color:#cb415a"]{color:#cb415a!important}
 #app .who-name[style*="#7ebeab"],#app .player-choice-text strong[style*="#7ebeab"],#app span[style*="color:#7ebeab"]{color:#7ebeab!important}
-</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="dossierOpen" onclick="openDossier()">調査資料台帳</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="exportJsonSave()" title="進行・RP・ダイスのバックアップを保存">JSONバックアップ</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・聞き取った証言・現場で確認した事実を、自動で保存する調査資料台帳です。入手済みの紙面はすべて表示され、見出しを押すと折りたためます。未確認の情報やダイスの判定結果は表示されません。</p><div id="dossierContents"></div></div></div><script>
+
+
+/* v8.6.1: 本文・資料・技能判定の段落リズムを統一し、余白のばらつきを抑える */
+#storyContent .narrative-paragraph,
+#storyContent .reveal-paragraph{
+  max-width:48em;
+  margin:0 0 1.02em;
+  line-height:1.9;
+}
+#storyContent .narrative-paragraph:last-of-type,
+#storyContent .reveal-paragraph:last-of-type{margin-bottom:0}
+#storyContent .narrative-paragraph + .narrative-paragraph,
+#storyContent .reveal-paragraph + .reveal-paragraph{margin-top:0}
+#storyContent .card > .record-item,
+#storyContent .card > .story-skill,
+#storyContent .card > .choices,
+#storyContent .card > .note,
+#storyContent .card > .quote,
+#storyContent .card > .subcard{
+  margin-top:18px;
+}
+#storyContent .record-item{margin-bottom:0}
+#storyContent .record-content{padding:16px 18px 18px}
+#storyContent .record-content > p{margin:0 0 .95em;line-height:1.9}
+#storyContent .record-content > p:last-child{margin-bottom:0}
+#storyContent .record-finding{margin:14px 0 2px}
+#storyContent .record-finding p{margin:0;line-height:1.8}
+#app .story-skill{margin:12px 0 0!important}
+#app .story-skill .action-skill-context{margin:0 0 12px;line-height:1.85}
+#app .story-skill .action-skill-controls{margin:0;padding:12px 0;min-height:0}
+#app .story-skill .action-skill-outcome{margin:12px 0 0}
+#app .story-skill .skill-effect p{margin:0 0 .95em;line-height:1.85}
+#app .story-skill .skill-effect p:last-child{margin-bottom:0}
+@media(max-width:700px){
+  #storyContent .narrative-paragraph,
+  #storyContent .reveal-paragraph,
+  #storyContent .record-content > p,
+  #app .story-skill .action-skill-context,
+  #app .story-skill .skill-effect p{line-height:1.82}
+}
+@media(max-width:600px){
+  #storyContent .card > .record-item,
+  #storyContent .card > .story-skill,
+  #storyContent .card > .choices,
+  #storyContent .card > .note,
+  #storyContent .card > .quote,
+  #storyContent .card > .subcard{margin-top:15px}
+  #storyContent .record-content{padding:14px 14px 16px}
+}
+
+/* v8.6: 捜査中の誤操作を防ぎ、スマホで補助操作を探しやすくする */
+.footer-tools{flex:1 1 100%;border:1px solid var(--ui-border);border-radius:10px;padding:8px 12px;background:var(--sub-glass);min-width:0}
+.footer-tools summary{cursor:pointer;color:var(--page-text);font-weight:700;font-size:14px;line-height:1.7;list-style-position:inside}
+.footer-tools summary:focus-visible{outline:3px solid var(--ui-accent);outline-offset:3px}
+.footer-tools-row{padding:11px 0 4px;align-items:center}
+.footer-tools-row>button{min-height:40px}
+.footer-quick{width:100%}
+.footer-quick>button{flex:1 1 auto;text-align:center}
+@media(max-width:650px){.footer-tools-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.footer-tools-row>button,.footer-tools-row>select{width:100%;min-width:0!important;text-align:center}
+.footer-tools-row>label{grid-column:1/-1;margin:0!important}
+.footer-quick>button{min-height:44px}
+}
+body.theme-light .footer-tools{background:rgba(253,251,245,.91);border-color:#b8c2c9}
+body.theme-light .footer-tools summary{color:#253342}
+
+/* v8.6.2: 小説としての読み幅・見出し・紙面レイアウトを一貫させる */
+#storyContent .narrative-paragraph,
+#storyContent .reveal-paragraph,
+#storyContent .npc-dialogue,
+#storyContent .quote{
+  max-width:42em;
+  line-height:1.92;
+  text-wrap:pretty;
+}
+#storyContent .narrative-paragraph{margin-bottom:1.12em;}
+#storyContent .narrative-paragraph + .narrative-paragraph{margin-top:0;}
+#storyContent > h2{margin:8px 0 22px;line-height:1.55;}
+#storyContent > h3, #storyContent .subcard > h3{margin:0 0 14px;line-height:1.55;}
+#storyContent .subcard > h3 + p{margin-top:0;}
+#storyContent .scene-placebar{margin:0 0 24px;}
+#storyContent .scene-banner + .scene-placebar{margin-top:0;}
+#storyContent .subcard{margin-block:22px;}
+#storyContent .subcard > :last-child{margin-bottom:0;}
+#storyContent .investigation-choice{margin-bottom:17px;}
+#storyContent .investigation-choice:last-child{margin-bottom:0;}
+#storyContent .investigation-choice > .revealed-dialogue{max-width:42em;margin:14px 0 12px!important;line-height:1.88;}
+#storyContent .investigation-choice > .clue{margin:8px 0 14px;line-height:1.75;}
+#app .story-skill .action-skill-context{max-width:42em;line-height:1.92;}
+#app .story-skill .skill-effect{max-width:42em;}
+/* 紙面は折りたたみ・分類・時系列の既存操作をそのまま保つ */
+.dossier-entries{gap:18px;align-items:start;}
+.dossier-entry{box-shadow:0 3px 11px rgba(0,0,0,.14);}
+.dossier-entry>summary{padding:17px 43px 16px 20px;min-height:70px;gap:5px;}
+.dossier-entry-meta{font-size:10px;letter-spacing:.11em;line-height:1.6;}
+.dossier-entry-title{font-size:17px;line-height:1.55;letter-spacing:.025em;}
+.dossier-entry-content{padding:3px 20px 20px;line-height:1.9;}
+.dossier-entry-content>p{margin:14px 0 0;line-height:1.92;white-space:pre-line;}
+.dossier-entry-content .dossier-note{margin-top:18px;padding-top:13px;line-height:1.75;}
+.dossier-library-tools{margin-bottom:20px;}
+.dossier-library-heading{margin-bottom:21px;}
+@media(max-width:700px){
+ #storyContent .narrative-paragraph,#storyContent .reveal-paragraph,#storyContent .npc-dialogue,#storyContent .quote{max-width:100%;line-height:1.84;}
+ #storyContent .scene-placebar{margin-bottom:19px;}
+ #storyContent .subcard{margin-block:17px;}
+ .dossier-entries{gap:12px;}
+ .dossier-entry>summary{min-height:56px;padding:13px 42px 12px 15px;}
+ .dossier-entry-content{padding:2px 15px 17px;}
+}
+</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row footer-quick"><button class="small" id="dossierOpen" onclick="openDossier()">調査資料台帳</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><details class="footer-tools"><summary>ログ・セーブ・再開 <span aria-hidden="true">▾</span></summary><div class="row footer-tools-row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="exportJsonSave()" title="進行・RP・ダイスのバックアップを保存">JSONバックアップ</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></details></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・聞き取った証言・現場で確認した事実を、自動で保存する調査資料台帳です。入手済みの紙面はすべて表示され、見出しを押すと折りたためます。未確認の情報やダイスの判定結果は表示されません。</p><div id="dossierContents"></div></div></div><script>
 'use strict';
 const KEY='yohaku_kpless_solo_v1_6_character_select';
-const APP_VERSION='8.3';
+const APP_VERSION='8.6.2';
 let saveWarning='';
-const fresh=()=>({diceVisuals:{},investigationNotes:{},investigationTimeline:[],pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
-let S;try{S=Object.assign(fresh(),JSON.parse(localStorage.getItem(KEY)||'{}'))}catch{S=fresh()}
+const fresh=()=>({diceVisuals:{},investigationNotes:{},investigationTimeline:[],seenNarrationIds:[],pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
+const SAVE_SCHEMA=2;
+const validPhases=['setup','intro','archive','hall','witness','threshold','deduction','echo','choice','end','after','pair'];
+function migrateState(raw){
+ if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('セーブ内容が不正です');
+ const out=Object.assign(fresh(),raw);
+ for(const k of ['found','spoken','checks','history','logEntries','seenNarration','seenNarrationIds','pageHistory','investigationTimeline','deductionAnswers']){
+  if(!Array.isArray(out[k]))out[k]=[];
+ }
+ for(const k of ['skillRolls','skillTargets','growthRolls','diceVisuals','investigationNotes','deductionHints']){
+  if(!out[k]||typeof out[k]!=='object'||Array.isArray(out[k]))out[k]={};
+ }
+ if(!validPhases.includes(out.phase))throw Error('進行地点が不正です');
+ if(!['','myoga','futami'].includes(out.character))throw Error('探索者情報が不正です');
+ if(!['city','hillside'].includes(out.route))throw Error('ルート情報が不正です');
+ if(out.character){const expected=out.character==='myoga'?'city':'hillside';if(out.route!==expected)throw Error('探索者とルートが一致しません');}
+ out.logEntries=out.logEntries.filter(e=>e&&typeof e==='object'&&!Array.isArray(e)).map(e=>({...e,text:String(e.text??''),name:String(e.name??'KP')}));
+ out.pageHistory=out.pageHistory.filter(x=>x&&typeof x==='object'&&typeof x.html==='string').slice(-35);
+ out.seenNarrationIds=Array.from(new Set(out.seenNarrationIds.filter(x=>typeof x==='string')));
+ if(!['json','new','old'].includes(out.logStyle))out.logStyle='json';
+ return out;
+}
+let S;try{S=migrateState(JSON.parse(localStorage.getItem(KEY)||'{}'))}catch{S=fresh()}
 if(!S.saveFormatUpdated){S.logStyle='json';S.saveFormatUpdated=true;try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){saveWarning='ブラウザの保存領域を利用できません。JSONセーブを書き出してください。';}}
 const $=id=>document.getElementById(id), h=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ROUTES={
@@ -732,37 +862,68 @@ function persistState(){
  }
 }
 const save=()=>{persistState();render();};
-const record=t=>{
+const record=(t,positionOverride=null)=>{
  S.history.push(t);if(!Array.isArray(S.logEntries))S.logEntries=[];
  const scene=S.character&&S.phase!=='setup'&&S.phase!=='pair'?S.route+'|'+S.phase:null;
- const position=scene?document.querySelectorAll('#storyContent > [data-narrative-index]').length:null;
+ const position=scene?(positionOverride===null?document.querySelectorAll('#storyContent > [data-narrative-index]').length:positionOverride):null;
  S.logEntries.push({channel:'system',name:'システム',text:String(t),color:'#888888',timestamp:new Date().toISOString(),scene,position,logEvent:true});
 };
+// 同一場面の「構造上の位置」を記録IDにする。本文の表現を改稿しても既存ログを二重登録しない。
+// 取得した資料・聞き取りはボタンのIDを優先し、画面上の出現順が変わっても識別する。
+function narrativeIdentity(el,root){
+ const scene=S.route+'|'+S.phase;
+ const box=el.closest('.investigation-choice');
+ if(box){
+  const btn=box.querySelector('button[onclick]');
+  const method=btn?.getAttribute('onclick')?.match(/^(?:collect|speak)\('([^']+)'\)/);
+  const paragraphs=Array.from(box.querySelectorAll('p,.quote,.clue')).filter(p=>!p.closest('.action-skill-outcome,.evidence-board,.deduction-hint'));
+  if(method)return scene+'|investigation:'+method[1]+'|'+paragraphs.indexOf(el);
+ }
+ const nodePath=[];let node=el;
+ while(node&&node!==root){
+  const parent=node.parentElement;if(!parent)break;
+  const siblings=Array.from(parent.children).filter(x=>x.tagName===node.tagName && x.className===node.className);
+  nodePath.unshift(node.tagName.toLowerCase()+'-'+siblings.indexOf(node));
+  node=parent;
+ }
+ return scene+'|'+nodePath.join('/');
+}
+// DOM上での位置を使用し、資料の途中に挟まった判定もログの同じ位置へ出力する。
+function narrativePositionFor(node){
+ const root=$('storyContent');if(!root||!node)return null;
+ let count=0;
+ for(const child of root.children){
+  if(child===node||child.contains(node))break;
+  if(child.matches('p,.quote,.clue'))count++;
+ }
+ return count;
+}
 function sceneSnapshot(){
  if(!['intro','archive','hall','witness','threshold','deduction','echo','choice','end','after'].includes(S.phase))return;
- S.seenNarration ||= []; S.logEntries ||= [];
+ S.seenNarration ||= [];S.seenNarrationIds ||= [];S.logEntries ||= [];
  const root=$('storyContent');if(!root)return;
- const els=root.querySelectorAll('p,.quote,.clue');
- els.forEach(el=>{
-   if(el.closest('.rpbox')||el.closest('.rpdisplay')||el.closest('.evidence-board')||el.closest('.deduction-hint')||el.closest('.action-skill-outcome'))return;
-   let val=(el.innerText||el.textContent||'').trim().replace(/\n{3,}/g,'\n\n');
-   if(!val||val.length<7)return;
-   const speaker=el.dataset.speaker||'KP';
-   const dialogue=!!el.dataset.speaker;
-   const spokenText=dialogue?val.replace(new RegExp('^'+R().witness.split(' ')[0]+'(?=「)|^(?:職員|上司|近所の住人)(?=「)'),''):val;
-   const sceneId=S.route+'|'+S.phase;
-   const key=sceneId+'|'+(dialogue?spokenText:val);
-   const position=el.dataset.narrativeIndex!==undefined?Number(el.dataset.narrativeIndex):null;
-   if(S.seenNarration.includes(key)){
-    if(dialogue){const priorSaved=S.logEntries.find(x=>x.narration&&x.scene===sceneId&&x.name==='KP'&&x.text===spokenText);if(priorSaved){priorSaved.name=speaker;priorSaved.color='#bdb1d2';}}
-    return;
-   }
-   // 旧版のセーブに同じ会話がKPとして残っているときは更新し、二重登録を防ぐ。
-   const prior=S.logEntries.find(x=>x.narration&&x.scene===sceneId&&x.name==='KP'&&x.text===spokenText);
-   if(prior&&dialogue){prior.name=speaker;prior.color='#bdb1d2';prior.position=position;S.seenNarration.push(key);return;}
-   S.seenNarration.push(key);
-   S.logEntries.push({channel:'main',name:speaker,text:spokenText,color:dialogue?'#bdb1d2':'#888888',timestamp:new Date().toISOString(),scene:sceneId,position,narration:true});
- });
+ const sceneId=S.route+'|'+S.phase;
+ const recordedIds=new Set(S.seenNarrationIds);
+ for(const el of root.querySelectorAll('p,.quote,.clue')){
+  if(el.closest('.rpbox,.rpdisplay,.evidence-board,.deduction-hint,.action-skill-outcome,.action-skill,.history-readonly'))continue;
+  const val=(el.innerText||el.textContent||'').trim().replace(/\n{3,}/g,'\n\n');
+  if(!val||val.length<7)continue;
+  const speaker=el.dataset.speaker||'KP',dialogue=!!el.dataset.speaker;
+  const spokenText=dialogue?val.replace(new RegExp('^'+R().witness.split(' ')[0]+'(?=「)|^(?:職員|上司|近所の住人)(?=「)'),''):val;
+  const key=sceneId+'|'+spokenText;
+  const identity=narrativeIdentity(el,root)+'|'+speaker;
+  const position=narrativePositionFor(el);
+  if(recordedIds.has(identity)||S.logEntries.some(e=>e.narration&&e.narrationId===identity))continue;
+  // 旧セーブの本文はそのまま保全。文章一致の既存ログに識別子だけ追加する。
+  const old=S.logEntries.find(e=>e.narration&&e.scene===sceneId&&(e.text===spokenText||(!e.narrationId&&position!==null&&e.position===position&&e.name===speaker)));
+  if(old){old.narrationId=identity;if(dialogue&&old.name==='KP'){old.name=speaker;old.color='#bdb1d2';}}
+  else if(S.seenNarration.includes(key)){
+   // 旧版に既読識別子しかない場合は、本文重複を優先して防ぐ。
+  }else{
+   S.logEntries.push({channel:'main',name:speaker,text:spokenText,color:dialogue?'#bdb1d2':'#888888',timestamp:new Date().toISOString(),scene:sceneId,position,narration:true,narrationId:identity});
+  }
+  S.seenNarration.push(key);S.seenNarrationIds.push(identity);recordedIds.add(identity);
+ }
  persistState();
 }
 function setRpDraft(v){S.rpDraft=v;persistState()}
@@ -974,7 +1135,7 @@ function archiveCurrentPage(){
  // 余分なRP挿入先等はそのまま残し、過去の状態を静的HTMLとして記録する。
  const captured=root.innerHTML;
  if(!captured)return;
- const item={phase:S.phase,title:stage(),html:captured,route:S.route,selected:pendingChoiceLabel||'',at:new Date().toISOString()};
+ const item={phase:S.phase,title:stage(),html:captured,route:S.route,selected:pendingChoiceLabel||'',at:new Date().toISOString(),appVersion:APP_VERSION,archived:true};
  S.pageHistory.push(item);
  if(S.pageHistory.length>35)S.pageHistory.shift();
 }
@@ -990,7 +1151,7 @@ function showHistoryPage(){
  if(historyViewIndex<0){render();return;}
  const item=S.pageHistory?.[historyViewIndex];if(!item){historyViewIndex=-1;render();return;}
  const selected=item.selected?`<div class="history-answer">選んだ項目：<strong>${h(item.selected)}</strong></div>`:'';
- $('app').innerHTML=historyBar()+`<div class="history-readonly" inert><div id="storyContent">${historyHtmlWithImage(item)}</div></div>`+selected+`<p class="history-footnote">閲覧用の画面です。選択・ダイス・RPは変更されません。</p>`;
+ $('app').innerHTML=historyBar()+`<div class="history-readonly" inert><div id="storyContent">${historyHtmlWithImage(item)}</div></div>`+selected+`<p class="history-footnote">当時の表示を保管した履歴です。シナリオ更新後も過去の文章を保持します。選択・ダイス・RPは変更されません。</p>`;
  $('headProgress').textContent=item.title+'（閲覧中）';
  $('progress').style.width=((({intro:10,archive:27,hall:43,witness:55,threshold:72,deduction:77,echo:78,choice:85,end:92,after:100})[item.phase])||0)+'%';
 }
@@ -1179,14 +1340,14 @@ function collect(id){if(!S.found.includes(id)){S.found.push(id);noteInvestigatio
 // 技能チェックは失敗しても必須情報を失わない。成功時のみ追加の考察・演出を開示する。
 const SKILL_CASES={
  city:[
- {id:'library',name:'図書館',base:65,scene:'archive',lead:'古い資料の分類と保管履歴を照合する',win:'受領票が写しであることに気づく。原本にあるはずの受付印だけが、写しの段階で消されていた。単なる転記ミスとは考えにくい。',fail:'記録の写しに欠落があることまでは分かるが、どの段階で生じたのかまでは断定できない。',critical:'二枚の写しを重ねると、受付印の欠損が完全に同じ形で重なった。独立した転記ミスではない。あなたは原本ではなく「同じ欠落を持つ一枚」を繰り返し複写した可能性を突き止める。照合メモに、決定的な比較結果を残せる。',fumble:'束ねた資料の背表紙がほどけ、書類が床へ散らばった。拾い集める手間で少し時間を取られる。だがページの順番を確認し直せば不足はなく、調査を続けられる。'},
- {id:'law',name:'法律',base:60,scene:'archive',lead:'照会と正式な失踪届の違いを整理する',win:'この書類は失踪の事実を認定するものではなく、保管資料の照会を終了するための事務記録だ。確認できない事柄を断定しないことが、適切な処理だと判断できる。',fail:'正式な失踪認定とは異なることが分かる。判断に迷う箇所は「確認できない」と記せばよい。',critical:'受付番号と照会区分を追ううち、この記録を「失踪事件として解決した」と書くこと自体が誤記になると看破する。記載できる事実と推測を分離した、後から検証可能な処理方針まで定まる。',fumble:'古い様式の欄を読み違え、いったん照会の区分を取り違える。照合先の番号を確認すると誤りに気づく。訂正線を入れて記録し、正式な判断は保留にできる。'},
- {id:'psych',name:'心理学',base:70,scene:'witness',lead:'時刻の話をした後の森野の表情としぐさを見る',win:'証人は何かを隠すよりも、「確かでないことを断言したくない」と自制している。視線が止まるのは時刻の数字ではなく、時計の説明に触れたときだ。',fail:'証人は故意に捜査を妨げている様子ではない。無理に答えを急がせる必要はない。'}
+ {id:'library',name:'図書館',base:65,scene:'archive',lead:'古い資料の分類と保管履歴を照合する',win:'受領票が写しであることに気づく。原本にあるはずの受付印だけが、写しの段階で消されていた。単なる転記ミスとは考えにくい。',fail:'同じ受付番号を追って台帳を繰るが、原本の所在が途中で途切れている。写しに欠落があることまでは分かっても、どの段階で生じたかは断定できない。あなたは不明と書き添え、別の資料の確認へ移る。',critical:'二枚の写しを重ねると、受付印の欠損が完全に同じ形で重なった。独立した転記ミスではない。あなたは原本ではなく「同じ欠落を持つ一枚」を繰り返し複写した可能性を突き止める。照合メモに、決定的な比較結果を残せる。',fumble:'束ねた資料の背表紙がほどけ、書類が床へ散らばった。拾い集める手間で少し時間を取られる。だがページの順番を確認し直せば不足はなく、調査を続けられる。'},
+ {id:'law',name:'法律',base:60,scene:'archive',lead:'照会と正式な失踪届の違いを整理する',win:'この書類は失踪の事実を認定するものではなく、保管資料の照会を終了するための事務記録だ。確認できない事柄を断定しないことが、適切な処理だと判断できる。',fail:'古い書式の注記を何度も読み返すが、現在の規程とすぐには対応づけられない。それでも、この照会が正式な失踪認定ではないことは確認できた。判断のつかない欄は保留にして、照会番号を記録に残す。',critical:'受付番号と照会区分を追ううち、この記録を「失踪事件として解決した」と書くこと自体が誤記になると看破する。記載できる事実と推測を分離した、後から検証可能な処理方針まで定まる。',fumble:'古い様式の欄を読み違え、いったん照会の区分を取り違える。照合先の番号を確認すると誤りに気づく。訂正線を入れて記録し、正式な判断は保留にできる。'},
+ {id:'psych',name:'心理学',base:70,scene:'witness',lead:'時刻の話をした後の森野の表情としぐさを見る',win:'証人は何かを隠すよりも、「確かでないことを断言したくない」と自制している。視線が止まるのは時刻の数字ではなく、時計の説明に触れたときだ。',fail:'視線だけでは、森野が何をためらっているのか読み取れない。彼女が栞を持ち直したところで、あなたは表情を決めつけて追及するのをやめる。時刻については別の記録と照らし合わせ、本人の言葉を待つことにする。'}
  ],
  hillside:[
- {id:'hearing',name:'聞き耳',base:86,scene:'archive',lead:'残された録音記録の微細な音を聞き分ける',win:'無音の直前に、紙を一枚めくるような摩擦音がある。録音機の故障音とは周期が異なる。発声だけが記録から抜けた可能性を考えられる。',fail:'音声はほぼ無音だ。ただし録音機そのものは動いていたらしい。',critical:'再生速度を変えると、紙の擦過音が二度重なっていると分かる。音源が同じ場所の一枚ではなく、別々の位置の紙をめくったように聞こえる。録音の冒頭と末尾に、同じ時刻の無音が挟まれている。',fumble:'録音機の音量を上げすぎ、突然の雑音に耳を塞ぐ。短い耳鳴りが残るが、休んで再確認すれば録音機は正常に動作しており、必要な資料を失うことはない。'},
- {id:'analysis',name:'精神分析',base:85,scene:'witness',lead:'証人が落ち着いて記憶をたどれるように話す',win:'証人の呼吸が整うと、怖かったのは声そのものではなく「正しく伝えなければならない」という重圧だったと分かる。あなたの対応で証人は自分の言葉を取り戻す。',fail:'すぐには落ち着かないが、急かさず付き添うことで証人は話を続けられる。',critical:'短い沈黙を挟み、呼吸の速さと視線の動きを確かめながら言葉を選ぶ。証人は自分から「怖かったのは声ではなく、誰にも信じてもらえないこと」と語り、思い出せる事実と想像を分けて話せるようになる。',fumble:'言葉を選ぶ間が逆に緊張を招き、証人の手が震え出す。あなたは無理に記憶を引き出すのをやめ、温かい飲み物と休息を勧める。時間を置けば安全に聞き取りを再開できる。'},
- {id:'fasttalk',name:'言いくるめ',base:50,scene:'witness',lead:'謝罪について続けにくそうな三谷に別の切り口で問いかける',win:'硬い調査の言葉を少し崩すと、証人は肩の力を抜く。「そんな大ごとじゃないと思ってたの」と苦笑し、聞き取りが自然な会話に変わる。',fail:'不器用な言い回しになったかもしれないが、立場と目的を説明すれば話を続けてもらえる。'}
+ {id:'hearing',name:'聞き耳',base:86,scene:'archive',lead:'残された録音記録の微細な音を聞き分ける',win:'無音の直前に、紙を一枚めくるような摩擦音がある。録音機の故障音とは周期が異なる。発声だけが記録から抜けた可能性を考えられる。',fail:'再生位置を少し戻して耳を澄ませても、聞こえるのはかすかな機械音ばかりだ。音声の手掛かりは掴めなかったが、録音機の作動時刻は記録簿に残っている。あなたは無音だったこと自体を記録する。',critical:'再生速度を変えると、紙の擦過音が二度重なっていると分かる。音源が同じ場所の一枚ではなく、別々の位置の紙をめくったように聞こえる。録音の冒頭と末尾に、同じ時刻の無音が挟まれている。',fumble:'録音機の音量を上げすぎ、突然の雑音に耳を塞ぐ。短い耳鳴りが残るが、休んで再確認すれば録音機は正常に動作しており、必要な資料を失うことはない。'},
+ {id:'analysis',name:'精神分析',base:85,scene:'witness',lead:'証人が落ち着いて記憶をたどれるように話す',win:'証人の呼吸が整うと、怖かったのは声そのものではなく「正しく伝えなければならない」という重圧だったと分かる。あなたの対応で証人は自分の言葉を取り戻す。',fail:'三谷の手の震えはすぐには収まらない。あなたは記憶を問い直す代わりに、一度カップを置く時間を取る。沈黙のあと彼女は自分から口を開いた。急いで聞き出せたわけではないが、話を続けられる状態には戻っている。',critical:'短い沈黙を挟み、呼吸の速さと視線の動きを確かめながら言葉を選ぶ。証人は自分から「怖かったのは声ではなく、誰にも信じてもらえないこと」と語り、思い出せる事実と想像を分けて話せるようになる。',fumble:'言葉を選ぶ間が逆に緊張を招き、証人の手が震え出す。あなたは無理に記憶を引き出すのをやめ、温かい飲み物と休息を勧める。時間を置けば安全に聞き取りを再開できる。'},
+ {id:'fasttalk',name:'言いくるめ',base:50,scene:'witness',lead:'謝罪について続けにくそうな三谷に別の切り口で問いかける',win:'硬い調査の言葉を少し崩すと、証人は肩の力を抜く。「そんな大ごとじゃないと思ってたの」と苦笑し、聞き取りが自然な会話に変わる。',fail:'問いかけが少し唐突だったのか、三谷は口を結んでしまう。あなたは急いで言葉を重ねず、調査の目的をあらためて説明する。少し間を置いてから彼女はうなずき、答えられることだけを話し始めた。'}
  ]
 };
 function setSkillTarget(id,value){const cfg=SKILL_CASES[S.route].find(x=>x.id===id);if(!cfg||S.skillRolls[id])return;S.skillTargets[id]=Math.min(99,Math.max(1,Number(value)||cfg.base));save()}
@@ -1331,11 +1492,12 @@ function rollSkill(id,trigger){
  const grade=roll<=5?'クリティカル':roll>=96?'ファンブル':roll<=target?'成功':'失敗';
  const success=grade==='クリティカル'||grade==='成功';
  const sceneText=grade==='クリティカル'?cfg.critical:grade==='ファンブル'?cfg.fumble:success?cfg.win:cfg.fail;
+ const logPosition=narrativePositionFor(diceAnchor('skill-'+id));
  showDiceRoll({anchorKey:'skill-'+id,trigger,title:'〈'+cfg.name+'〉',target:'技能値 '+target+'%',roll,kind:grade==='クリティカル'?'critical':grade==='ファンブル'?'fumble':success?'success':'failure',label:grade,onConfirm:()=>{
   S.skillRolls[id]={roll,target,success,grade};
   if(success&&['library','law','hearing'].includes(id))noteInvestigationDiscovery('finding-'+id,S.phase);
-  record(`〈${cfg.name}〉 ${roll}/${target}：${grade}${['クリティカル','ファンブル'].includes(grade)?'（CF成長対象）':''}`);
-  S.logEntries.push({channel:'main',name:'KP',text:`【〈${cfg.name}〉${grade}】\n${sceneText}`,color:'#888888',timestamp:new Date().toISOString(),scene:S.route+'|'+S.phase,position:document.querySelectorAll('#storyContent > [data-narrative-index]').length,logEvent:true});
+  record(`〈${cfg.name}〉 ${roll}/${target}：${grade}${['クリティカル','ファンブル'].includes(grade)?'（CF成長対象）':''}`,logPosition);
+  S.logEntries.push({channel:'main',name:'KP',text:`【〈${cfg.name}〉${grade}】\n${sceneText}`,color:'#888888',timestamp:new Date().toISOString(),scene:S.route+'|'+S.phase,position:logPosition,logEvent:true});
   save();
  }});
 }
@@ -1758,7 +1920,7 @@ function deduction(){
  let body=para(
   'あなたは机に広げたメモをもう一度確かめる。午後の日差しが大きな窓から差し込み、長机の上に明るい四角い光を落としている。室内は静まり返り、聞こえるのは紙をめくる音ばかりだ。資料に残された時刻、証人の言葉、目の前にある時計。それぞれの違和感を並べてみると、別々に見えた手掛かりの間に共通点が浮かび上がってくる。',
   city?'あなたは、時刻、受領印、証言の内容を順に見直した。異なる資料に同じ数字が残っている一方、その時刻に何があったのかはまだ分からない。':'あなたの手元には、声を聞いたという証言と、何も聞こえない録音がある。どちらか一方を誤りと決める前に、両方に共通することがないか調べてみよう。',
-  'これまでに得た手がかりを読み比べ、現時点での考えを選んでみよう。'
+  'まず資料の記載と、証人が直接確かめたことを分けて置く。いくつかの説明は成り立ちそうだが、まだ裏付けのないものもある。あなたは手元で確認できたことだけを根拠に、現時点での考えを選ぶ。'
  );
  const prior=answers.map((a,j)=>{const d=routeDeductions()[j];return `<div class="subcard"><h3>${h(d.title)}</h3><p class="muted">選んだ考え：${h(d.choices.find(([_,id])=>id===a.choice)?.[0]||'')}</p>${narr(a.correct?d.right:d.wrong)}</div>`}).join('');
  if(i<DEDUCTIONS.length){
@@ -2109,8 +2271,9 @@ function orderedLogEntries(){
 }
 function setLogStyle(style){S.logStyle=['json','new','old'].includes(style)?style:'json';persistState();if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';}
 const SAVE_FORMAT='yohaku-kpless-save';
-function makeSaveData(){compactHistoryImages();return {format:SAVE_FORMAT,version:1,appVersion:APP_VERSION,scenario:'余白に残る、きみの声',savedAt:new Date().toISOString(),state:JSON.parse(JSON.stringify(S))};}
+function makeSaveData(){compactHistoryImages();return {format:SAVE_FORMAT,version:SAVE_SCHEMA,appVersion:APP_VERSION,scenario:'余白に残る、きみの声',savedAt:new Date().toISOString(),state:JSON.parse(JSON.stringify(S))};}
 function exportJsonSave(){
+ if(activeDiceRoll){alert('ダイスの判定が終わってからバックアップしてください。');return;}
  const data=JSON.stringify(makeSaveData(),null,2);
  downloadFile(`余白に残るきみの声_${S.name1||'未選択'}_セーブ_v${APP_VERSION}.json`,data,'application/json;charset=utf-8');
 }
@@ -2121,6 +2284,7 @@ function downloadPreviousSave(reason){
 }
 function exportSelectedLog(){if(S.logStyle==='json')exportJsonSave();else exportHtmlLog();}
 async function loadSaveFile(input){
+ if(activeDiceRoll){alert('ダイスの判定が終わってからロードしてください。');input.value='';return;}
  const file=input.files&&input.files[0];input.value='';if(!file)return;
  try{
   const raw=await file.text();let payload;
@@ -2131,13 +2295,12 @@ async function loadSaveFile(input){
    if(!node)throw Error('このHTMLログには復元用データがありません。v3.1以降に出力したログを選んでください。');
    payload=JSON.parse(node.textContent);
   }else throw Error('JSONまたはHTML形式のセーブファイルを選んでください。');
-  if(!payload||payload.format!==SAVE_FORMAT||payload.version!==1||!payload.state||typeof payload.state!=='object'||Array.isArray(payload.state))throw Error('対応していないセーブ形式です。');
-  const state=payload.state;
-  if(!['setup','intro','archive','hall','witness','threshold','deduction','echo','choice','end','after','pair'].includes(state.phase)|| !['','myoga','futami'].includes(state.character)||!['city','hillside'].includes(state.route)||!Array.isArray(state.logEntries)||!Array.isArray(state.found)||!Array.isArray(state.spoken)||!Array.isArray(state.checks))throw Error('セーブデータの内容が不正です。');
+  if(!payload||payload.format!==SAVE_FORMAT||![1,2].includes(payload.version)||!payload.state||typeof payload.state!=='object'||Array.isArray(payload.state))throw Error('対応していないセーブ形式です。');
+  const state=migrateState(payload.state);
   const fromVersion=payload.appVersion||'旧版（バージョン未記録）';
   if(!confirm('現在のプレイ状況を読み込んだデータで上書きします。\n\n読み込むセーブ：'+fromVersion+'／'+(state.name1||'探索者')+'／'+state.phase+'\n\n現在の記録は上書き前にJSONとして退避します。続けますか？'))return;
   try{downloadPreviousSave('ロード前')}catch(e){alert('ロード前のバックアップを作成できませんでした。JSONを書き出してから再試行してください。');return;}
-  S=Object.assign(fresh(),state);S.logStyle='json';historyViewIndex=-1;save();
+  S=state;S.logStyle='json';historyViewIndex=-1;save();
   $('toast').textContent=saveWarning||('セーブデータ（'+fromVersion+'）を読み込みました。発言・判定・進行地点をご確認ください。');
  }catch(err){alert('ロードできませんでした：'+err.message)}
 }
@@ -2289,6 +2452,7 @@ function generateHtmlLogWithSave(style){
 function previewHtmlLog(){if(S.logStyle==='json')return;const doc=generateHtmlLog(S.logStyle);const blob=new Blob([doc],{type:'text/html;charset=utf-8'});const u=URL.createObjectURL(blob);const w=window.open(u,'_blank');if(!w){alert('プレビューがブロックされました。HTMLログを書き出して開いてください。')}setTimeout(()=>URL.revokeObjectURL(u),60000)}
 function exportHtmlLog(){const style=S.logStyle==='old'?'old':'new';downloadFile(`余白に残るきみの声_${S.name1||'探索者'}_${style==='new'?'新版':'旧版'}ログ.html`,generateHtmlLogWithSave(style),'text/html;charset=utf-8')}
 function resetGame(){
+ if(activeDiceRoll){alert('ダイスの判定が終わってから操作してください。');return;}
  if(!confirm('プレイ記録・RP・判定ログを消去して最初から始めます。\n現在の進行状況はJSONバックアップとして書き出します。続けますか？'))return;
  try{downloadPreviousSave('リセット前')}catch(e){alert('バックアップを作成できませんでした。先にJSONを書き出してください。');return;}
  S=fresh();historyViewIndex=-1;save();
