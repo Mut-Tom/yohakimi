@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.0.4</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.0.6</title><style>
 :root{color-scheme:dark;--bg:#101a26;--paper:#172637;--panel:#1b2e42;--line:#395066;--text:#edf0ec;--muted:#b5c2ca;--gold:#d6b985;--mint:#99b8a9}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#24384b 0,#101a26 60%);color:var(--text);font-family:"Yu Mincho","Hiragino Mincho ProN", "Noto Serif JP",serif;line-height:2}main{max-width:900px;margin:auto;padding:28px 18px 88px}header{border-bottom:1px solid var(--line);padding:30px 0 24px}h1{font-size:clamp(29px,5vw,45px);letter-spacing:.15em;line-height:1.55;margin:12px 0}h2{font-size:25px;font-weight:500;letter-spacing:.12em;margin:0 0 20px;color:#f2dfbd}h3{font-size:18px;color:var(--gold)}p{margin:0 0 1.15em;white-space:pre-line}button,select,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #6b7d8c;background:#22394b;color:var(--text);border-radius:7px;padding:12px 18px;line-height:1.5;text-align:left}button:hover{background:#304c5e;border-color:#c4ab80}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e1c288;outline-offset:2px}button:disabled{opacity:.35;cursor:not-allowed}.primary{background:#85704f;border-color:#bd9f71;color:#fff;font-weight:700}.primary:hover{background:#a0875b}.small{font-size:13px;padding:6px 10px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.2em}.muted{color:var(--muted)}.card{border:1px solid var(--line);background:#172637e8;border-radius:12px;padding:clamp(20px,5vw,38px);margin-top:24px;box-shadow:0 10px 40px #0002}.subcard{background:#1b3042;border:1px solid #3d5565;border-radius:9px;padding:18px;margin:18px 0}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.choices{display:grid;gap:12px;margin:24px 0}.choices button{width:100%;padding:16px 20px}.tag{display:inline-block;border:1px solid #7e806f;border-radius:30px;padding:2px 12px;font-size:12px;color:var(--gold);margin:0 7px 6px 0}.divider{border-top:1px solid var(--line);margin:26px 0}.topbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.meter{height:5px;background:#33495b;border-radius:10px;overflow:hidden;margin:20px 0 0}.meter span{display:block;background:var(--gold);height:100%;transition:width .4s}label{display:block;color:var(--muted);font-size:14px;margin:14px 0 6px}input,select,textarea{border-radius:7px;border:1px solid #587082;background:#102030;color:var(--text);padding:10px 12px;max-width:100%;width:100%}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.note{background:#293a46;border-left:3px solid var(--gold);padding:14px 18px;margin:20px 0;color:#dde4e5}.quote{font-size:19px;color:#f2dfbd;padding:18px 22px;border-left:2px solid #9f8764;margin:25px 0;background:#213246}.rpbox{border-top:1px solid var(--line);margin-top:32px;padding-top:22px}.rpbox textarea{min-height:95px;resize:vertical;line-height:1.7}.rpbox button{white-space:nowrap}.rpbox .rphelp{font-size:12px;color:var(--muted)}.rpdisplay{border-left:3px solid var(--rp-color,#cb415a);padding:9px 13px;margin:9px 0;background:#132333}.rpdisplay strong{color:var(--rp-color,#cb415a)}.hidden{display:none}.footer{margin-top:30px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.log{color:#a6bcc3;font-size:13px}.clue{color:#a7d4c4;font-size:13px}.stat{display:inline-block;padding:4px 11px;background:#284356;border-radius:6px;margin-right:7px;font-size:14px}details{margin:16px 0}summary{cursor:pointer;color:var(--gold)}@media(max-width:600px){main{padding:12px 12px 70px}.card{margin-top:15px}body{line-height:1.85}}.player-avatar{width:44px;height:44px;object-fit:cover;border-radius:9px;border:1px solid #728398;flex-shrink:0}.player-avatar.large{width:58px;height:58px}.player-choice{display:flex;align-items:center;gap:14px}.player-choice-text{flex:1}.active-character{display:flex;align-items:center;gap:13px;margin:0 0 22px;padding:12px 14px;background:#132435;border:1px solid #354d60;border-radius:10px}.active-character .who-name{font-weight:bold;font-size:16px}.rp-profile{display:flex;align-items:center;gap:12px}.rpdisplay{display:flex;align-items:flex-start;gap:10px}.rpdisplay .player-avatar{width:36px;height:36px}.rpdisplay .rp-content{min-width:0;flex:1}.rp-recent{margin-top:15px}.rp-recent-title{font-size:13px;color:var(--muted);margin:0 0 7px}.rpdisplay p{margin:4px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}@media(max-width:600px){.player-choice{gap:10px}.player-avatar.large{width:48px;height:48px}}
 /* ココフォリア風ダークUI：独自再現スタイル。ゲームロジックは変更しない。 */
 :root{color-scheme:dark;--bg:#16171b;--paper:#24252b;--panel:#303137;--line:#45464d;--text:#f4f4f5;--muted:#b5b5bc;--gold:#dddde1;--mint:#85cab4}
@@ -512,7 +512,7 @@ body.theme-light .dossier-empty{color:#435766;border-color:#a2b2ba}
 body.theme-light .dossier-old-notes{border-color:#abb8c2}
 @media(max-width:650px){.dossier-window{width:100%;max-height:calc(100dvh - 24px);padding:15px 12px}.dossier-bulk-actions{gap:6px}.dossier-bulk-actions button{padding:8px 10px}.dossier-select{min-height:52px}}
 
-/* v8.0.4 チェックを廃止し、入手済みの紙面をすべて折りたたみ表示 */
+/* v8.0.6 チェックを廃止し、入手済みの紙面をすべて折りたたみ表示 */
 .dossier-entries{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
 .dossier-entry{min-width:0;background:#ece7dc;color:#252525;border:1px solid #c3b9a9;border-radius:5px;box-shadow:0 3px 9px #0004;overflow:hidden;font-family:serif}
 .dossier-entry>summary{position:relative;list-style:none;display:flex;align-items:center;gap:10px;flex-wrap:wrap;cursor:pointer;min-height:65px;padding:17px 44px 15px 19px;line-height:1.5;color:#242424}
@@ -530,7 +530,64 @@ body.theme-light .dossier-entry>summary,body.theme-light .dossier-entry-title,bo
 body.theme-light .dossier-entry-meta{color:#4a5d68}
 body.theme-light .dossier-entry-content .dossier-note{color:#354852}
 @media(max-width:650px){.dossier-entries{grid-template-columns:1fr;gap:11px}.dossier-entry>summary{min-height:55px;padding:12px 42px 12px 15px}.dossier-entry-content{padding:0 15px 16px}}
-</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="dossierOpen" onclick="openDossier()">入手情報・捜査記録</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">入手情報・捜査記録</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・証言・現場の発見・判定結果を自動で記録します。入手済みの情報を紙面風の記録としてすべて表示します。各記録をタップすると折りたためます。未確認の情報は表示されません。</p><div id="dossierContents"></div></div></div><script>
+
+/* v8.0.6: 調査資料台帳全体を旧・調査資料の文書閲覧デザインに統一 */
+.dossier-window{background:#25272e;border:1px solid #63636a;padding:24px 26px;box-shadow:0 24px 85px #000b}
+.dossier-head{padding-bottom:13px;margin-bottom:13px;border-color:#52545c}
+.dossier-head h2{font-family:serif;font-size:24px;letter-spacing:.07em;color:#e9e2d7}
+.dossier-help{line-height:1.8;color:#bec1ca;margin:0 0 21px;max-width:78ch}
+.dossier-library-heading{border-top:1px solid #69676a;border-bottom:1px solid #69676a;padding:15px 2px 14px;margin-bottom:18px}
+.dossier-library-label{font:700 10px/1.5 system-ui,sans-serif;letter-spacing:.15em;color:#a9b4c5}
+.dossier-library-label span{letter-spacing:.06em}
+.dossier-library-summary{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:8px}
+.dossier-library-summary strong{font:600 20px/1.4 serif;color:#f0e9dd}
+.dossier-library-summary p{font:12px/1.6 system-ui,sans-serif;color:#b9bbc2;margin:5px 0 0}
+.dossier-library-stamp{font:700 12px/1.5 system-ui,sans-serif;color:#dfd5c1;border:1px solid #aaa190;padding:6px 11px;white-space:nowrap;transform:rotate(-2deg)}
+.dossier-library-tools{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin:0 0 18px}
+.dossier-library-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.dossier-library-tabs button.records-filter{font:600 13px/1.4 system-ui,sans-serif;border:1px solid #676a73;background:transparent;color:#e2e0df;border-radius:3px;padding:8px 14px;min-height:42px}
+.dossier-library-tabs button.records-filter.active{border-color:#c2b39a;background:#ded4c1;color:#252b31}
+.dossier-library-search{min-width:min(100%,225px);display:flex;flex-direction:column;gap:5px;color:#cbc9c6;font:12px/1.4 system-ui,sans-serif}
+.dossier-library-search input{margin:0;background:#e9e5dc;color:#232a34;border:1px solid #bab5ac;border-radius:4px;padding:10px 12px;min-height:42px;width:100%;font-size:14px}
+.dossier-bulk-actions{border-bottom:1px solid #5b5d66;padding:0 0 12px;margin:0 0 17px}
+.dossier-bulk-actions .dossier-count{color:#c6c5c5}
+.dossier-bulk-actions button.small{border:1px solid #89878a;color:#e0ded8;background:#343741;border-radius:4px}
+.dossier-entry{background:#ece7dc;color:#252525;border:1px solid #c3b9a9;border-radius:4px;box-shadow:0 3px 9px #0005}
+.dossier-entry>summary{background:#ece7dc}
+.dossier-entry[open]>summary{border-bottom:1px solid #c2b8a9}
+.dossier-entry-meta{letter-spacing:.08em}
+.dossier-old-notes{margin-top:24px;border-color:#69666a;color:#e7e2d8}
+body.theme-light .dossier-window{background:#f7f5ee;border-color:#bab7b1}
+body.theme-light .dossier-head{border-color:#c4c0b9}
+body.theme-light .dossier-head h2,body.theme-light .dossier-library-summary strong{color:#2e3640!important}
+body.theme-light .dossier-help,body.theme-light .dossier-library-summary p{color:#586572}
+body.theme-light .dossier-library-heading{border-color:#b9b4ad}
+body.theme-light .dossier-library-label{color:#5c6878}
+body.theme-light .dossier-library-stamp{color:#534b3f;border-color:#827b70}
+body.theme-light .dossier-library-tabs button.records-filter{background:#f1f0eb;color:#364451;border-color:#aaa9a4}
+body.theme-light .dossier-library-tabs button.records-filter.active{background:#566f83;color:#fff;border-color:#506b80}
+body.theme-light .dossier-library-search{color:#445261}
+body.theme-light .dossier-bulk-actions{border-color:#c5c2ba}
+body.theme-light .dossier-bulk-actions .dossier-count{color:#52606d}
+body.theme-light .dossier-bulk-actions button.small{background:#e8e7e2;color:#303b46;border-color:#a6a5a0}
+body.theme-light .dossier-entry>summary{background:#f4efe4}
+body.theme-light .dossier-old-notes{color:#293443;border-color:#bbb4a8}
+@media(max-width:650px){.dossier-window{padding:16px 14px;max-height:94vh}.dossier-head h2{font-size:19px}.dossier-library-summary strong{font-size:17px}.dossier-library-stamp{font-size:10px;padding:5px 7px}.dossier-library-tools{display:block}.dossier-library-tabs{margin-bottom:13px}.dossier-library-tabs button.records-filter{flex:1;min-width:60px;padding:9px 8px}.dossier-library-search{width:100%}.dossier-bulk-actions{gap:6px}.dossier-bulk-actions button.small{font-size:12px;padding:8px}}
+
+/* v8.0.6: 資料／証言と同じカード内で行う、行動に連続した技能判定 */
+.action-skill{margin:16px 2px 4px;padding:14px 15px;border:1px solid var(--line);border-left:3px solid var(--accent,#53728c);border-radius:10px;background:var(--panel,rgba(125,125,125,.055));min-width:0;}
+.action-skill-context{margin:0 0 12px;line-height:1.9;}
+.action-skill-title{display:flex;flex-wrap:wrap;gap:7px 11px;align-items:center;margin-bottom:10px;line-height:1.5;}
+.action-skill-tag{font-size:12px;letter-spacing:.03em;font-weight:700;border-radius:5px;padding:4px 8px;color:var(--text);background:rgba(127,127,127,.13);white-space:nowrap;}
+.action-skill-title strong{font-size:14px;}
+.action-skill-controls{display:flex;gap:9px;align-items:center;flex-wrap:wrap;}
+.action-skill-controls label{display:inline-flex;gap:6px;align-items:center;white-space:nowrap;}
+.action-skill-controls .dice-inline-slot{min-width:0;}
+.action-skill-hint{font-size:12px;color:var(--muted);opacity:.88;margin:9px 0 0;}
+.action-skill-result{margin-top:10px;}
+.action-skill-result .skill-effect{margin-top:8px;line-height:1.85;}
+@media(max-width:480px){.action-skill{padding:11px 10px;margin:14px 0 3px}.action-skill-controls{gap:8px}.action-skill-title strong{width:100%}}
+</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="dossierOpen" onclick="openDossier()">調査資料台帳</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・聞き取った証言・現場で確認した事実を、自動で保存する調査資料台帳です。入手済みの紙面はすべて表示され、見出しを押すと折りたためます。未確認の情報やダイスの判定結果は表示されません。</p><div id="dossierContents"></div></div></div><script>
 'use strict';
 const KEY='yohaku_kpless_solo_v1_6_character_select';
 const fresh=()=>({diceVisuals:{},investigationNotes:{},pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
@@ -990,12 +1047,12 @@ const SKILL_CASES={
  city:[
  {id:'library',name:'図書館',base:65,scene:'archive',lead:'古い資料の分類と保管履歴を照合する',win:'受領票が写しであることに気づく。原本にあるはずの受付印だけが、写しの段階で消されていた。単なる転記ミスとは考えにくい。',fail:'記録の写しに欠落があることまでは分かるが、どの段階で生じたのかまでは断定できない。',critical:'二枚の写しを重ねると、受付印の欠損が完全に同じ形で重なった。独立した転記ミスではない。あなたは原本ではなく「同じ欠落を持つ一枚」を繰り返し複写した可能性を突き止める。照合メモに、決定的な比較結果を残せる。',fumble:'束ねた資料の背表紙がほどけ、書類が床へ散らばった。拾い集める手間で少し時間を取られる。だがページの順番を確認し直せば不足はなく、調査を続けられる。'},
  {id:'law',name:'法律',base:60,scene:'archive',lead:'照会と正式な失踪届の違いを整理する',win:'この書類は失踪の事実を認定するものではなく、保管資料の照会を終了するための事務記録だ。確認できない事柄を断定しないことが、適切な処理だと判断できる。',fail:'正式な失踪認定とは異なることが分かる。判断に迷う箇所は「確認できない」と記せばよい。',critical:'受付番号と照会区分を追ううち、この記録を「失踪事件として解決した」と書くこと自体が誤記になると看破する。記載できる事実と推測を分離した、後から検証可能な処理方針まで定まる。',fumble:'古い様式の欄を読み違え、いったん照会の区分を取り違える。照合先の番号を確認すると誤りに気づく。訂正線を入れて記録し、正式な判断は保留にできる。'},
- {id:'psych',name:'心理学',base:70,scene:'witness',lead:'証人が時刻の話だけを曖昧にする理由を観察する',win:'証人は何かを隠すよりも、「確かでないことを断言したくない」と自制している。視線が止まるのは時刻の数字ではなく、時計の説明に触れたときだ。',fail:'証人は故意に捜査を妨げている様子ではない。無理に答えを急がせる必要はない。'}
+ {id:'psych',name:'心理学',base:70,scene:'witness',lead:'時刻の話をした後の森野の表情としぐさを見る',win:'証人は何かを隠すよりも、「確かでないことを断言したくない」と自制している。視線が止まるのは時刻の数字ではなく、時計の説明に触れたときだ。',fail:'証人は故意に捜査を妨げている様子ではない。無理に答えを急がせる必要はない。'}
  ],
  hillside:[
  {id:'hearing',name:'聞き耳',base:86,scene:'archive',lead:'残された録音記録の微細な音を聞き分ける',win:'無音の直前に、紙を一枚めくるような摩擦音がある。録音機の故障音とは周期が異なる。発声だけが記録から抜けた可能性を考えられる。',fail:'音声はほぼ無音だ。ただし録音機そのものは動いていたらしい。',critical:'再生速度を変えると、紙の擦過音が二度重なっていると分かる。音源が同じ場所の一枚ではなく、別々の位置の紙をめくったように聞こえる。録音の冒頭と末尾に、同じ時刻の無音が挟まれている。',fumble:'録音機の音量を上げすぎ、突然の雑音に耳を塞ぐ。短い耳鳴りが残るが、休んで再確認すれば録音機は正常に動作しており、必要な資料を失うことはない。'},
  {id:'analysis',name:'精神分析',base:85,scene:'witness',lead:'証人が落ち着いて記憶をたどれるように話す',win:'証人の呼吸が整うと、怖かったのは声そのものではなく「正しく伝えなければならない」という重圧だったと分かる。あなたの対応で証人は自分の言葉を取り戻す。',fail:'すぐには落ち着かないが、急かさず付き添うことで証人は話を続けられる。',critical:'短い沈黙を挟み、呼吸の速さと視線の動きを確かめながら言葉を選ぶ。証人は自分から「怖かったのは声ではなく、誰にも信じてもらえないこと」と語り、思い出せる事実と想像を分けて話せるようになる。',fumble:'言葉を選ぶ間が逆に緊張を招き、証人の手が震え出す。あなたは無理に記憶を引き出すのをやめ、温かい飲み物と休息を勧める。時間を置けば安全に聞き取りを再開できる。'},
- {id:'fasttalk',name:'言いくるめ',base:50,scene:'witness',lead:'警戒する証人の気持ちをほぐし、話しやすい切り口を探す',win:'硬い調査の言葉を少し崩すと、証人は肩の力を抜く。「そんな大ごとじゃないと思ってたの」と苦笑し、聞き取りが自然な会話に変わる。',fail:'不器用な言い回しになったかもしれないが、立場と目的を説明すれば話を続けてもらえる。'}
+ {id:'fasttalk',name:'言いくるめ',base:50,scene:'witness',lead:'謝罪について続けにくそうな三谷に別の切り口で問いかける',win:'硬い調査の言葉を少し崩すと、証人は肩の力を抜く。「そんな大ごとじゃないと思ってたの」と苦笑し、聞き取りが自然な会話に変わる。',fail:'不器用な言い回しになったかもしれないが、立場と目的を説明すれば話を続けてもらえる。'}
  ]
 };
 function setSkillTarget(id,value){const cfg=SKILL_CASES[S.route].find(x=>x.id===id);if(!cfg||S.skillRolls[id])return;S.skillTargets[id]=Math.min(99,Math.max(1,Number(value)||cfg.base));save()}
@@ -1160,22 +1217,42 @@ function rollGrowth(id,trigger){
 }
 function growthPanel(){const items=SKILL_CASES[S.route].filter(x=>{let r=S.skillRolls[x.id];return r&&(r.roll<=5||r.roll>=96)});return `<div class="subcard"><h3>CF成長判定</h3><p class="muted" style="font-size:13px">本作の採用ルール：01～05をクリティカル、96～100をファンブルとします。CFが出た技能は終了時に1D100で現在技能値を超えたら1D10%成長（同じ技能につき1回）。神話技能には適用しません。卓の成長ハウスルールがある場合はそちらを優先してください。</p>${items.length?items.map(x=>{const r=S.skillRolls[x.id],g=S.growthRolls?.[x.id];return `<div data-roll-anchor="growth-${x.id}" style="padding:12px 0;border-top:1px solid var(--ui-border)"><strong>〈${x.name}〉</strong> ${r.roll}（${r.roll<=5?'C':'F'}）／ 技能値 ${r.target}%<div class="row" style="align-items:center;margin-top:6px">${g?'':`<button class="small" onclick="rollGrowth('${x.id}',this)">成長判定 1D100</button>`}<span class="growth-dice-track"><span class="growth-dice-caption">成長判定</span><span class="dice-inline-slot" data-roll-slot="growth-${x.id}"></span></span></div>${g?.success?`<div class="row" data-roll-anchor="growth-gain-${x.id}" style="align-items:center;margin-top:6px"><span class="growth-dice-caption">成長値 1D10</span><span class="dice-inline-slot" data-roll-slot="growth-gain-${x.id}"></span></div>`:''}${g?`<p class="muted" style="margin:5px 0 0;font-size:13px">${g.success?'成長成功：+'+g.gain+'%':'成長なし'}</p>`:''}</div>`}).join(''):'<p>今回はCFによる成長対象技能はありません。</p>'}</div>`}
 
-function skillPanel(scene){
- const items=SKILL_CASES[S.route].filter(x=>x.scene===scene);
- return `<div class="subcard"><h3>任意の技能判定</h3><p class="muted" style="font-size:13px">判定の結果は、その後の捜査や人物の反応にも影響します。01～05はクリティカル、96～100はファンブルです。判定せずに進めることもできます。</p>${items.map(x=>{
- const result=S.skillRolls[x.id],value=S.skillTargets[x.id]??x.base;
+// 技能判定は、調べている資料や会話を開いたその場にのみ表示する。
+// 旧セーブの skillRolls / skillTargets とアンカー名はそのまま使用する。
+const ACTION_SKILL_CONTEXT={
+ city:{
+  library:{before:'受領票の紙面を見つめるうち、これが原本ではなく写しだと気づく。あなたは書架から古い受領簿と複写台帳を取り出し、同じ受付番号の記録を探す。',action:'保管台帳から対応する原本の記録を探す'},
+  law:{before:'時系列表と処理区分を照らし合わせると、「照会終了」という文字が気にかかる。これは失踪の認定まで意味するのだろうか。あなたは当時の書式と規程を調べ始める。',action:'当時の規程を確認し、書類の扱いを判断する'},
+  psych:{before:'「午後11時48分」という数字を口にした森野は、説明の途中で栞へ視線を落とし、言葉を探すように指を止めた。単なる記憶違いなのか、それとも何かを言いづらいのか。あなたは声の調子と視線を観察する。',action:'森野の言葉としぐさを観察する'}
+ },
+ hillside:{
+  hearing:{before:'記録簿に「返したい」という文字があるのに、添付音声は無音だ。あなたは再生機のヘッドホンをつけ直し、停止までの数秒に耳を澄ませる。',action:'無音の録音を聴き直し、微かな物音を探す'},
+  analysis:{before:'三谷が時刻の説明を言い直すたび、湯呑みを持つ手に力が入る。あなたは質問をいったん止め、落ち着いて記憶を辿れるよう話す速度を緩める。',action:'緊張した三谷に寄り添い、呼吸と言葉を整える'},
+  fasttalk:{before:'「借りたままで、ごめんなさい」と繰り返した三谷は、まだ続きがあるように唇を開きかけて、言葉をのみ込んだ。重々しい尋問のままでは答えづらそうだ。あなたは話題の切り口を変え、口を開きやすい雰囲気を作ろうとする。',action:'質問の切り口を変え、言いづらい話を引き出す'}
+ }
+};
+function actionSkill(id){
+ const cfg=SKILL_CASES[S.route].find(x=>x.id===id);
+ if(!cfg)return '';
+ const context=ACTION_SKILL_CONTEXT[S.route]?.[id]||{before:cfg.lead,action:cfg.lead};
+ const result=S.skillRolls?.[id],value=S.skillTargets?.[id]??cfg.base;
  const grade=result&&(result.roll<=5?'クリティカル':result.roll>=96?'ファンブル':result.grade||(result.success?'成功':'失敗'));
- const effect=grade==='クリティカル'?x.critical:grade==='ファンブル'?x.fumble:result?.success?x.win:x.fail;
- return `<section data-roll-anchor="skill-${x.id}" style="padding:12px 0;border-top:1px solid var(--line)"><strong>〈${x.name}〉</strong> — ${x.lead}<div class="row" style="align-items:center;margin-top:8px"><label>技能値 <input aria-label="${x.name}技能値" type="number" min="1" max="99" style="width:72px" value="${value}" ${result?'disabled':''} onchange="setSkillTarget('${x.id}',this.value)"></label>${result?'':`<button class="small" onclick="rollSkill('${x.id}',this)">1D100で判定</button>`}<span class="dice-inline-slot" data-roll-slot="skill-${x.id}"></span></div>${result?`<div class="clue"><strong>出目 ${result.roll} / ${result.target} — ${grade}</strong>${grade==='クリティカル'||grade==='ファンブル'?' <span style="color:var(--gold)">・CF成長対象</span>':''}<div class="skill-effect" style="margin:5px 0 0">${formatRevealedText(effect)}</div></div>`:''}</section>`
- }).join('')}</div>`;
+ const effect=grade==='クリティカル'?cfg.critical:grade==='ファンブル'?cfg.fumble:result?.success?cfg.win:cfg.fail;
+ return `<div class="action-skill" data-action-skill="${id}" data-roll-anchor="skill-${id}"><p class="action-skill-context">${context.before}</p><div class="action-skill-title"><span class="action-skill-tag">ここで〈${cfg.name}〉</span><strong>${context.action}</strong></div><div class="row action-skill-controls"><label>技能値 <input aria-label="${cfg.name}技能値" type="number" min="1" max="99" style="width:72px" value="${value}" ${result?'disabled':''} onchange="setSkillTarget('${id}',this.value)"></label>${result?'':`<button class="small" onclick="rollSkill('${id}',this)">1D100で判定</button>`}<span class="dice-inline-slot" data-roll-slot="skill-${id}"></span></div>${result?`<div class="clue action-skill-result"><strong>出目 ${result.roll} / ${result.target} — ${grade}</strong>${grade==='クリティカル'||grade==='ファンブル'?' <span style="color:var(--gold)">・CF成長対象</span>':''}<div class="skill-effect">${formatRevealedText(effect)}</div></div>`:`<p class="action-skill-hint">この行動を試す場合は判定してください。振らなくても調査は進められます。</p>`}</div>`;
+}
+function skillForArchive(id){
+ return S.route==='city'?(id==='receipt'?'library':id==='timeline'?'law':null):(id==='receipt'?'hearing':null);
+}
+function skillForDialogue(id){
+ return S.route==='city'?(id==='time'?'psych':null):(id==='time'?'analysis':id==='wish'?'fasttalk':null);
 }
 function archive(){
  let body=para(
  '午前10時を過ぎた。書庫の空調は少し強すぎるらしく、棚の奥にいると指先が冷えてくる。古い紙と埃の匂いが混じった机に、あなたは照会記録の3点を並べた。表紙を閉じてしまえば、ただの書類整理で終わる。けれど、それでは欠けた結末は埋まらない。',
  S.route==='city'?'受領票、時系列表、封書。どれも単独では不自然と断定しきれない。ところが時刻と書類の作成順を突き合わせると、同じ出来事について記したはずの数字が、きれいに噛み合わない。誤記なら誤記だと示せるはずだ。':'録音の記録簿、面会の記録、封書。耳にしたはずの声が機械には残らず、それでも文字の形で報告書に残っている。証言者が嘘をついたと決めつけるのは早い。何が記録され、何が記録されなかったかを分けて考える必要がある。',
  S.route==='city'?'時刻、受領者、文書の作成順。あなたはそれぞれを分けて書き出した。以前の捜査でも、わずかな前提の違いが推理全体を変えたことがある。今回も、まずは書類が示していることだけを確かめたい。':'音声が残っていないことと、当時誰も話さなかったことは同じではない。以前の捜査であなたが仲間の証言を一つずつ確かめたように、今回も録音記録と聞き取り票を分けて見ていく必要がある。',
- 'まずは3点の資料を確認しよう。さらに詳しく調べたい場合は、技能判定も行える。'
- )+`<div class="subcard investigation-list">${getArchives().map(x=>`<div class="investigation-choice"><button onclick="collect('${x.id}')">${S.found.includes(x.id)?'✓ ':''}${x.title}</button>${S.found.includes(x.id)?`<div class="revealed-dialogue" style="margin:9px 5px 18px">${formatRevealedText(x.text)}</div><div class="clue">調査メモ：${x.finding}</div>`:''}</div>`).join('')}</div>`+skillPanel('archive')+para('書類を並べ直すと、日付の食い違いと途中で止まった筆跡が、先ほどよりはっきり見えてきた。単なる整理作業のはずだったが、これを完了させるには、当時何が起きたのかをもう少し調べる必要がある。',
+ 'まずは3点の資料を確認しよう。詳しい調査ができる箇所では、資料を開いた直後に、その行動に対応する技能判定が表示される。'
+ )+`<div class="subcard investigation-list">${getArchives().map(x=>`<div class="investigation-choice"><button onclick="collect('${x.id}')">${S.found.includes(x.id)?'✓ ':''}${x.title}</button>${S.found.includes(x.id)?`<div class="revealed-dialogue" style="margin:9px 5px 18px">${formatRevealedText(x.text)}</div><div class="clue">調査メモ：${x.finding}</div>${skillForArchive(x.id)?actionSkill(skillForArchive(x.id)):''}`:''}</div>`).join('')}</div>`+para('書類を並べ直すと、日付の食い違いと途中で止まった筆跡が、先ほどよりはっきり見えてきた。単なる整理作業のはずだったが、これを完了させるには、当時何が起きたのかをもう少し調べる必要がある。',
  S.route==='city'?'あなたは、確かめられた部分と不明な部分を分けてメモに残した。空欄を埋めるために、根拠のない結論を書くことだけは避けたい。':'あなたは、文字に起こされた言葉の前後に目を通した。録音で確かめられないのなら、次は当時その声を聞いた人に話を聞こう。');
  return frame('3つの資料',body,opt(S.found.length<3?'3つの資料をすべて読むと進めます':'資料の照合を終える',S.found.length<3?'void(0)':'go("hall")',S.found.length===3?'primary':''));
 }
@@ -1372,7 +1449,7 @@ function witness(){
  '居間には紅茶の香りが漂っている。低いテーブルには、古いアルバムと、あなたが持ってきた資料を置くための空き場所が作られていた。資料を並べられるよう、テーブルの片側が空けられている。',
  '湯気の立つカップを置き、証人が口を開く。\n\n「ちゃんとお話しできるか、分からないんです。でも、隠そうと思って黙っていたわけじゃありません。覚えていることと、覚えていないことを、分けて聞いてくれますか」',
  '証人は話し終えても、カップに添えた手を離さない。少し時間を置いてから、あなたは聞き取り票を開いた。まずは当時見聞きしたことを確かめ、記憶が曖昧な部分は曖昧なまま記録する。その方針で話を進められそうだ。'
- )+`<div class="subcard investigation-list">${getDialogues().map(x=>`<div class="investigation-choice"><button onclick="speak('${x.id}')">${S.spoken.includes(x.id)?'✓ ':''}${x.title}</button>${S.spoken.includes(x.id)?`<div class="revealed-dialogue" style="margin:9px 5px 10px">${formatRevealedText(x.text)}</div><div class="clue">聞き取りメモ：${x.memo}</div>`:''}</div>`).join('')}</div>`+skillPanel('witness');
+ )+`<div class="subcard investigation-list">${getDialogues().map(x=>`<div class="investigation-choice"><button onclick="speak('${x.id}')">${S.spoken.includes(x.id)?'✓ ':''}${x.title}</button>${S.spoken.includes(x.id)?`<div class="revealed-dialogue" style="margin:9px 5px 10px">${formatRevealedText(x.text)}</div><div class="clue">聞き取りメモ：${x.memo}</div>${skillForDialogue(x.id)?actionSkill(skillForDialogue(x.id)):''}`:''}</div>`).join('')}</div>`;
  const check=S.route==='city'?'psych':'analysis';
  const bonus=S.route==='hillside'&&hasSuccess('fasttalk');
  const wWin=hasSuccess(check)||bonus,wFail=hasFailure(check)||(S.route==='hillside'&&hasFailure('fasttalk'));
@@ -1682,11 +1759,12 @@ function dossierDocuments(){
  if(dossierVisited('threshold')||dossierVisited('deduction')||dossierVisited('echo')){
   docs.push({id:'site',title:'現場確認メモ｜'+R().library,body:'10月30日午後3時半の現地確認。読書室の壁時計は11時48分を指したまま停止していた。過去の書類には「午後11時48分」とあるが、時計の針だけで午前・午後、停止した日時は判別できない。現場では停止した秒針が一度震える異変も確認した。',note:'過去の書類の時刻と、現在の壁時計の表示、午後3時半の現象は別々の事実として扱う。'});
  }
+ // 判定出目や成否は捜査記録に記載しない。成功によって得られた調査情報のみ収録する。
  const skillIds=S.route==='city'?['library','law']:['hearing'];
  for(const id of skillIds){
-  const roll=S.skillRolls?.[id];if(!roll)continue;
+  const roll=S.skillRolls?.[id];if(!roll?.success)continue;
   const cfg=SKILL_CASES[S.route].find(x=>x.id===id);if(!cfg)continue;
-  docs.push({id:'skill-'+id,title:'追加調査｜〈'+cfg.name+'〉',body:(roll.grade==='クリティカル'?cfg.critical:roll.grade==='ファンブル'?cfg.fumble:roll.success?cfg.win:cfg.fail),note:'判定結果：'+(roll.grade||(roll.success?'成功':'失敗'))+' ／ 出目 '+roll.roll});
+  docs.push({id:'finding-'+id,title:'追加の調査情報｜'+cfg.name,body:roll.grade==='クリティカル'?cfg.critical:cfg.win,note:'調査によって確認できた情報。'});
  }
  return docs;
 }
@@ -1706,7 +1784,7 @@ function closeNotes(){closeDossier();}
 let dossierFilter='all',dossierQuery='';
 function investigationRecords(){
  const records=dossierDocuments().map(d=>{
-  const group=d.id.startsWith('archive-')?'資料':d.id==='witness'?'証言':d.id==='site'?'現場':'判定';
+  const group=d.id==='witness'?'証言':d.id==='site'?'現場':'資料';
   return {id:d.id,group,title:d.title,body:d.body,detail:d.note};
  });
  for(const dialogue of getDialogues()){
@@ -1730,9 +1808,9 @@ function filteredDossierRecords(){
 }
 function renderDossier(){
  const total=investigationRecords().length;
- const categories=['all','資料','証言','現場','判定'];
- $('dossierContents').innerHTML=`<div class="records-overview"><div><strong>${total}件</strong><span>入手・確認済み</span></div><div><strong>${h(R().district)}</strong><span>${h(S.character?(S.name1||'探索者'):'探索開始前')}</span></div></div>
- <div class="records-toolbar"><div class="records-filters" role="group" aria-label="情報の種類">${categories.map(group=>`<button type="button" class="records-filter${dossierFilter===group?' active':''}" aria-pressed="${dossierFilter===group}" data-group="${group}" onclick="setDossierFilter('${group}')">${group==='all'?'すべて':group}</button>`).join('')}</div><label class="records-search-label" for="dossierSearch">記録を検索</label><input type="search" id="dossierSearch" autocomplete="off" placeholder="資料名・人物・時刻・キーワード" value="${h(dossierQuery)}" oninput="setDossierQuery(this.value)"></div>
+ const categories=['all','資料','証言','現場'];
+ $('dossierContents').innerHTML=`<div class="dossier-library-heading"><div class="dossier-library-label">INVESTIGATION ARCHIVE <span>／ 調査記録</span></div><div class="dossier-library-summary"><div><strong>${h(R().district)}の調査資料</strong><p>${h(S.name1||'探索者')}が確認した情報を収録</p></div><span class="dossier-library-stamp">収録 ${total} 件</span></div></div>
+ <div class="dossier-library-tools"><div class="dossier-library-tabs" role="group" aria-label="資料の種類">${categories.map(group=>`<button type="button" class="records-filter${dossierFilter===group?' active':''}" aria-pressed="${dossierFilter===group}" data-group="${group}" onclick="setDossierFilter('${group}')">${group==='all'?'全資料':group}</button>`).join('')}</div><label class="dossier-library-search" for="dossierSearch"><span>資料を探す</span><input type="search" id="dossierSearch" autocomplete="off" placeholder="表題・人物・キーワード" value="${h(dossierQuery)}" oninput="setDossierQuery(this.value)"></label></div>
  <div id="dossierResults"></div>`;
  renderDossierResults();
 }
@@ -1741,12 +1819,12 @@ function renderDossierResults(){
  const all=investigationRecords();
  const shown=filteredDossierRecords();
  const sheet=d=>`<details class="dossier-entry" data-record-id="${h(d.id)}" ${dossierClosed.has(d.id)?'':'open'} ontoggle="toggleDossierEntry(this.dataset.recordId,this.open)">
-   <summary><span class="dossier-entry-meta">${h(d.group)}・確認済み</span><span class="dossier-entry-title">${h(d.title)}</span><span class="dossier-entry-arrow" aria-hidden="true">⌄</span></summary>
+   <summary><span class="dossier-entry-meta">調査資料 ／ ${h(d.group)}</span><span class="dossier-entry-title">${h(d.title)}</span><span class="dossier-entry-arrow" aria-hidden="true">⌄</span></summary>
    <div class="dossier-entry-content"><p>${h(d.body)}</p>${d.detail?`<p class="dossier-note"><strong>確認できたこと</strong>：${h(d.detail)}</p>`:''}</div>
   </details>`;
  const legacy=Object.entries(noteStore()).filter(([key,value])=>String(value||'').trim());
  const oldSheet=legacy.length&&dossierFilter==='all'&&!dossierQuery.trim()?`<details class="dossier-old-notes"><summary>以前に入力したメモ（${legacy.length}件）を確認</summary><div class="dossier-compare">${legacy.map(([key,val])=>`<article class="dossier-sheet"><div class="dossier-sheet-kind">旧メモ</div><h3>${h(key==='free'?'自由メモ':all.find(d=>d.id===key)?.title||key)}</h3><p>${h(val)}</p></article>`).join('')}</div></details>`:'';
- container.innerHTML=`<div class="dossier-bulk-actions"><span class="dossier-count">${shown.length}件の入手情報を表示</span><button type="button" class="small" onclick="setAllDossierOpen(true)">すべて開く</button><button type="button" class="small" onclick="setAllDossierOpen(false)">すべて閉じる</button></div>${shown.length?`<div class="dossier-entries">${shown.map(sheet).join('')}</div>`:`<div class="dossier-empty">${all.length?'条件に合う記録はありません。検索条件を変更してください。':'まだ入手した情報はありません。調査を進めると自動で追加されます。'}</div>`}${oldSheet}`;
+ container.innerHTML=`<div class="dossier-bulk-actions"><span class="dossier-count">${shown.length}件の資料を収録</span><button type="button" class="small" onclick="setAllDossierOpen(true)">全件を開く</button><button type="button" class="small" onclick="setAllDossierOpen(false)">全件を閉じる</button></div>${shown.length?`<div class="dossier-entries">${shown.map(sheet).join('')}</div>`:`<div class="dossier-empty">${all.length?'条件に合う記録はありません。検索条件を変更してください。':'まだ入手した情報はありません。調査を進めると自動で追加されます。'}</div>`}${oldSheet}`;
  const buttons=$('dossierContents').querySelectorAll('.records-filter');buttons.forEach(b=>{b.classList.toggle('active',b.dataset.group===dossierFilter);b.setAttribute('aria-pressed',String(b.dataset.group===dossierFilter));});
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('dossierOverlay').hidden)closeDossier()}});
@@ -1798,7 +1876,7 @@ function refreshSceneBackdrop(){
 }
 
 function render(){updateReaderControls();applyTheme();refreshSceneBackdrop();let map={setup:settings,intro,archive,hall,witness,threshold,deduction,echo,choice,end,after,pair};$('app').innerHTML=historyBar()+'<div id="storyContent">'+(S.phase!=='setup'&&S.phase!=='pair'&&CHARACTERS[S.character]?`<div class="active-character" style="--rp-color:${CHARACTERS[S.character].color}">${playerAvatar(S.character)}<span><span class="who-name" style="color:${CHARACTERS[S.character].color}">${h(CHARACTERS[S.character].name)}</span><br><span class="muted" style="font-size:12px">${h(R().district)}・個別捜査記録</span></span></div>`:'')+(map[S.phase]||settings)()+'</div>'+rpWidget();$('progress').style.width=progress()+'%';$('headProgress').textContent=stage();if($('saveStatus'))$('saveStatus').textContent=S.phase==='setup'?'開始前・設定は自動保存されます':'自動保存中：'+(S.name1||'探索者')+'／'+stage()+'（次回もここから再開）';if($('logStyle'))$('logStyle').value=['json','new','old'].includes(S.logStyle)?S.logStyle:'json';if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';if($('dossierOpen'))$('dossierOpen').hidden=!S.character;if(!$('dossierOverlay').hidden)renderDossier();placeInlineRP();sceneSnapshot();restoreInlineDiceResult();soundUI();updateAmbientScene();}
-function showHow(){alert('【遊び方】\n2026年10月30日の通常勤務中に、所属先で別々の記録を扱うソロシナリオです。別の探索者が同時にもうひとつの地域を選んで通過しても矛盾しません。\n画面に出る文章を読み、選択肢を押して進みます。選んだ箇所は自動保存されます。\nSANチェックは画面で判定・記録できます。\n場面の間に探索者自身のRPを挟んでも構いません。入手情報・捜査記録から、確認済みの資料や証言を読み返せます。\n場所と時刻は情景画像の下に表示されます。音声は上部のボタンでON/OFFできます（初期OFF）。\n技能ロール01～05はクリティカル、96～100はファンブルです。CF技能は終了時に成長判定ができます。')}
+function showHow(){alert('【遊び方】\n2026年10月30日の通常勤務中に、所属先で別々の記録を扱うソロシナリオです。別の探索者が同時にもうひとつの地域を選んで通過しても矛盾しません。\n画面に出る文章を読み、選択肢を押して進みます。選んだ箇所は自動保存されます。\nSANチェックは画面で判定・記録できます。\n場面の間に探索者自身のRPを挟んでも構いません。調査資料台帳から、確認済みの資料や証言を読み返せます。\n場所と時刻は情景画像の下に表示されます。音声は上部のボタンでON/OFFできます（初期OFF）。\n技能ロール01～05はクリティカル、96～100はファンブルです。CF技能は終了時に成長判定ができます。')}
 function downloadFile(name,contents,type){const a=document.createElement('a');const url=URL.createObjectURL(new Blob([contents],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),4000)}
 function orderedLogEntries(){
  const all=Array.isArray(S.logEntries)?S.logEntries:[];
