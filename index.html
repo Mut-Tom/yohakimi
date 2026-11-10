@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.0.8</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>余白に残る、きみの声 | KPレスシナリオ v8.3</title><style>
 :root{color-scheme:dark;--bg:#101a26;--paper:#172637;--panel:#1b2e42;--line:#395066;--text:#edf0ec;--muted:#b5c2ca;--gold:#d6b985;--mint:#99b8a9}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#24384b 0,#101a26 60%);color:var(--text);font-family:"Yu Mincho","Hiragino Mincho ProN", "Noto Serif JP",serif;line-height:2}main{max-width:900px;margin:auto;padding:28px 18px 88px}header{border-bottom:1px solid var(--line);padding:30px 0 24px}h1{font-size:clamp(29px,5vw,45px);letter-spacing:.15em;line-height:1.55;margin:12px 0}h2{font-size:25px;font-weight:500;letter-spacing:.12em;margin:0 0 20px;color:#f2dfbd}h3{font-size:18px;color:var(--gold)}p{margin:0 0 1.15em;white-space:pre-line}button,select,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #6b7d8c;background:#22394b;color:var(--text);border-radius:7px;padding:12px 18px;line-height:1.5;text-align:left}button:hover{background:#304c5e;border-color:#c4ab80}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e1c288;outline-offset:2px}button:disabled{opacity:.35;cursor:not-allowed}.primary{background:#85704f;border-color:#bd9f71;color:#fff;font-weight:700}.primary:hover{background:#a0875b}.small{font-size:13px;padding:6px 10px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.2em}.muted{color:var(--muted)}.card{border:1px solid var(--line);background:#172637e8;border-radius:12px;padding:clamp(20px,5vw,38px);margin-top:24px;box-shadow:0 10px 40px #0002}.subcard{background:#1b3042;border:1px solid #3d5565;border-radius:9px;padding:18px;margin:18px 0}.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.choices{display:grid;gap:12px;margin:24px 0}.choices button{width:100%;padding:16px 20px}.tag{display:inline-block;border:1px solid #7e806f;border-radius:30px;padding:2px 12px;font-size:12px;color:var(--gold);margin:0 7px 6px 0}.divider{border-top:1px solid var(--line);margin:26px 0}.topbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.meter{height:5px;background:#33495b;border-radius:10px;overflow:hidden;margin:20px 0 0}.meter span{display:block;background:var(--gold);height:100%;transition:width .4s}label{display:block;color:var(--muted);font-size:14px;margin:14px 0 6px}input,select,textarea{border-radius:7px;border:1px solid #587082;background:#102030;color:var(--text);padding:10px 12px;max-width:100%;width:100%}.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.note{background:#293a46;border-left:3px solid var(--gold);padding:14px 18px;margin:20px 0;color:#dde4e5}.quote{font-size:19px;color:#f2dfbd;padding:18px 22px;border-left:2px solid #9f8764;margin:25px 0;background:#213246}.rpbox{border-top:1px solid var(--line);margin-top:32px;padding-top:22px}.rpbox textarea{min-height:95px;resize:vertical;line-height:1.7}.rpbox button{white-space:nowrap}.rpbox .rphelp{font-size:12px;color:var(--muted)}.rpdisplay{border-left:3px solid var(--rp-color,#cb415a);padding:9px 13px;margin:9px 0;background:#132333}.rpdisplay strong{color:var(--rp-color,#cb415a)}.hidden{display:none}.footer{margin-top:30px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.log{color:#a6bcc3;font-size:13px}.clue{color:#a7d4c4;font-size:13px}.stat{display:inline-block;padding:4px 11px;background:#284356;border-radius:6px;margin-right:7px;font-size:14px}details{margin:16px 0}summary{cursor:pointer;color:var(--gold)}@media(max-width:600px){main{padding:12px 12px 70px}.card{margin-top:15px}body{line-height:1.85}}.player-avatar{width:44px;height:44px;object-fit:cover;border-radius:9px;border:1px solid #728398;flex-shrink:0}.player-avatar.large{width:58px;height:58px}.player-choice{display:flex;align-items:center;gap:14px}.player-choice-text{flex:1}.active-character{display:flex;align-items:center;gap:13px;margin:0 0 22px;padding:12px 14px;background:#132435;border:1px solid #354d60;border-radius:10px}.active-character .who-name{font-weight:bold;font-size:16px}.rp-profile{display:flex;align-items:center;gap:12px}.rpdisplay{display:flex;align-items:flex-start;gap:10px}.rpdisplay .player-avatar{width:36px;height:36px}.rpdisplay .rp-content{min-width:0;flex:1}.rp-recent{margin-top:15px}.rp-recent-title{font-size:13px;color:var(--muted);margin:0 0 7px}.rpdisplay p{margin:4px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}@media(max-width:600px){.player-choice{gap:10px}.player-avatar.large{width:48px;height:48px}}
 /* ココフォリア風ダークUI：独自再現スタイル。ゲームロジックは変更しない。 */
 :root{color-scheme:dark;--bg:#16171b;--paper:#24252b;--panel:#303137;--line:#45464d;--text:#f4f4f5;--muted:#b5b5bc;--gold:#dddde1;--mint:#85cab4}
@@ -303,10 +303,10 @@ body.theme-light .subcard .action-skill .clue{color:#1f5a50!important}
 /* Light mode readable character selection and toolbar contrast */
 body.theme-light .player-choice{background:transparent!important;color:#293642!important}
 body.theme-light .player-choice-text{color:#293642!important}
-body.theme-light .player-choice-text strong[style*="#cb415a"]{color:#a52f4c!important}
-body.theme-light .player-choice-text strong[style*="#7ebeab"]{color:#276e5f!important}
+
+
 body.theme-light .choices button.primary .player-choice,body.theme-light .choices button.primary .player-choice-text{color:#fff!important}
-body.theme-light .choices button.primary .player-choice-text strong{color:#fff!important}
+
 body.theme-light .theme-toggle{background:rgba(246,247,245,.94)!important;color:#303846!important;border-color:#a3abb4!important}
 body.theme-light .theme-toggle:hover{background:#e4eaed!important}
 body.theme-light #app .subcard .clue,body.theme-light .clue{color:#286357!important}
@@ -337,7 +337,12 @@ body.theme-light #app button.primary:disabled{opacity:.5}
 /* v7.2 インラインダイス：ボタン横、スマホでは折り返し表示 */
 .inline-dice{display:inline-flex;align-items:center;flex-wrap:wrap;gap:6px;vertical-align:middle;margin:6px 0 6px 10px;min-height:48px;font-family:system-ui,"Noto Sans JP",sans-serif}
 .inline-die{position:relative;display:inline-grid;place-items:center;width:45px;height:45px;flex:none;filter:drop-shadow(0 3px 3px #0004);transform-origin:center}
-.inline-die::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#dce8ff,#697dab 48%,#344869);clip-path:polygon(50% 0,90% 14%,100% 55%,78% 92%,50% 100%,22% 92%,0 55%,10% 14%)}
+.inline-die::before{content:"";position:absolute;inset:0;background:linear-gradient(142deg,#4469ef 2%,#1233be 39%,#07156c 78%,#061045);clip-path:polygon(50% 0,90% 14%,100% 55%,78% 92%,50% 100%,22% 92%,0 55%,10% 14%);box-shadow:inset 2px 2px 2px #ffffff40}
+/* ココフォリアの赤い十の位／青い一の位をイメージした配色。結果・回転中で色を固定する。 */
+.inline-die.d100-ones::before,.inline-die.d6::before,.inline-die.d10::before{background:linear-gradient(142deg,#3d57e7 0%,#1025b7 42%,#07146b 78%,#061045 100%)}
+.inline-die.d10.d100-tens::before{background:linear-gradient(143deg,#ff3b32 0%,#eb0a0d 32%,#ae0008 69%,#59000c 100%)}
+.inline-die::after{content:"";position:absolute;inset:11% 13% 12%;pointer-events:none;clip-path:polygon(50% 0,100% 39%,76% 100%,23% 100%,0 39%);border-top:1px solid #ffffff56;opacity:.75}
+.inline-die>span{text-shadow:0 1px 2px #050723,0 -1px 1px #0009!important}
 .inline-die.d6::before{clip-path:polygon(25% 4%,75% 4%,97% 50%,75% 96%,25% 96%,3% 50%)}
 .inline-die>span{position:relative;z-index:1;font:800 18px/1 system-ui,sans-serif;color:#fff;text-shadow:0 1px 3px #17243d}
 .inline-die.rolling{animation:inline-dice-toss .36s ease-in-out infinite alternate}
@@ -600,19 +605,133 @@ body.theme-light .dossier-old-notes{color:#293443;border-color:#bbb4a8}
 .action-skill-result{margin-top:10px;}
 .action-skill-result .skill-effect{margin-top:8px;line-height:1.85;}
 @media(max-width:480px){.action-skill{padding:11px 10px;margin:14px 0 3px}.action-skill-controls{gap:8px}.action-skill-title strong{width:100%}}
-</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="dossierOpen" onclick="openDossier()">調査資料台帳</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・聞き取った証言・現場で確認した事実を、自動で保存する調査資料台帳です。入手済みの紙面はすべて表示され、見出しを押すと折りたためます。未確認の情報やダイスの判定結果は表示されません。</p><div id="dossierContents"></div></div></div><script>
+
+/* v8.0.9: theme contrast audit – keep foreground and background updates synchronized. */
+button{transition:transform .15s,border-color .15s!important}
+body.theme-light #app label,body.theme-light .footer label{color:#435363!important}
+body.theme-light #app .evidence-card summary{color:#283744!important}
+body.theme-light #app .evidence-card[open] summary{border-bottom-color:#b9c1ca}
+body.theme-light #app .evidence-card p{color:#293744!important}
+body.theme-light #app p[style*="#efd4a6"]{color:#664821!important}
+
+
+
+
+
+/* Prevent future unthemed native labels or paper-viewer controls. */
+body.theme-light .dossier-library-search,body.theme-light .dossier-window label{color:#405364!important}
+body.theme-light .dossier-entry>summary{color:#283744!important}
+body.theme-light .scene-placebar span{color:#293b48}
+body.theme-light .history-footnote{color:#4b5c6c!important}
+
+/* v8.1.0: 日本語本文の折り返しを整え、準備画面の物語と説明を区別する */
+#storyContent .narrative-paragraph,
+#storyContent .reveal-paragraph,
+#storyContent .quote,
+#storyContent .note,
+#storyContent .subcard p {
+  line-break: strict;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+#storyContent .narrative-paragraph { max-width: 46em; }
+#storyContent .setup-guide {margin:18px 0 26px;padding:18px 21px;border:1px solid var(--ui-border);border-radius:10px;background:var(--sub-glass);color:var(--page-text)}
+#storyContent .setup-guide h3 {margin:0 0 12px;font-size:16px;font-weight:700;letter-spacing:.04em;color:var(--page-text)}
+#storyContent .setup-guide p {margin:0 0 11px;font-size:.92em;line-height:1.85;text-wrap:pretty;line-break:strict;word-break:normal;overflow-wrap:break-word;color:var(--page-text)}
+#storyContent .setup-guide p:last-child {margin-bottom:0}
+@media(max-width:600px){#storyContent .setup-guide{padding:15px 14px}#storyContent .narrative-paragraph{max-width:100%}}
+
+/* v8.1.1: 調査資料台帳の見出しを通常シーンの h2 と同じ書体・階層に統一 */
+#dossierOverlay .dossier-head #dossierTitle{
+ font-family:"Yu Mincho","Hiragino Mincho ProN","Noto Serif JP",serif;
+ font-size:25px;
+ font-weight:500;
+ letter-spacing:.12em;
+ line-height:1.55;
+ color:var(--page-text)!important;
+}
+body.theme-light #dossierOverlay .dossier-head #dossierTitle{color:#263442!important}
+
+/* v8.1.3: 技能判定を資料・会話の本文と一体化（独立した暗色カードを撤廃）。 */
+#app .story-skill{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;margin:10px 0 22px!important;padding:0!important;color:var(--page-text)!important}
+#app .story-skill .action-skill-context{margin:12px 0 14px;color:var(--page-text)!important;font-size:inherit;line-height:inherit}
+#app .story-skill .action-skill-controls{display:flex;align-items:center;flex-wrap:wrap;gap:9px 11px;border-top:1px solid var(--ui-border);border-bottom:1px solid var(--ui-border);padding:10px 0;margin:8px 0 14px;min-height:58px;background:transparent!important}
+#app .story-skill .action-skill-tag{font:700 12px/1.4 system-ui,"Noto Sans JP",sans-serif;letter-spacing:0;color:var(--page-text)!important;background:var(--sub-glass)!important;border:1px solid var(--ui-border);border-radius:5px;padding:6px 9px;white-space:nowrap}
+#app .story-skill .story-skill-value{display:inline-flex;gap:6px;align-items:center;margin:0;font:500 12px/1.4 system-ui,"Noto Sans JP",sans-serif;color:var(--page-muted)!important;white-space:nowrap}
+#app .story-skill .story-skill-value input{font:600 14px/1.3 system-ui,sans-serif!important;width:63px!important;min-height:38px;padding:6px!important;text-align:center}
+#app .story-skill .story-skill-roll{min-height:40px;flex:0 1 auto;max-width:100%;font:600 13px/1.5 system-ui,"Noto Sans JP",sans-serif;text-align:center;white-space:normal;background:var(--ui-glass)!important;border-color:var(--ui-border)!important;color:var(--page-text)!important}
+#app .story-skill .story-skill-roll:hover{filter:brightness(.95)}
+#app .story-skill .action-skill-outcome{margin:12px 0 0;padding:0!important;background:transparent!important;color:var(--page-text)!important}
+#app .story-skill .story-skill-result-label{font:600 12px/1.6 system-ui,"Noto Sans JP",sans-serif;color:var(--page-muted)!important;letter-spacing:.04em;margin-bottom:7px}
+#app .story-skill .skill-effect{font:inherit!important;color:var(--page-text)!important;line-height:inherit}
+#app .story-skill .skill-effect p{font:inherit;color:var(--page-text)!important;line-height:inherit;margin:0 0 1em}
+body.theme-light #app .story-skill .story-skill-roll{background:#e6ebef!important;color:#253541!important;border-color:#aab6c2!important}
+body.theme-light #app .story-skill .action-skill-tag{background:#e6ebef!important;color:#253541!important;border-color:#b6c1ca!important}
+@media(max-width:600px){#app .story-skill .action-skill-controls{gap:8px;padding:10px 0}#app .story-skill .story-skill-roll{width:100%;flex:1 1 100%;min-height:44px}#app .story-skill .dice-inline-slot{flex:1 1 auto}}
+
+/* v8.2 捜査記録：分類別／取得順を切り替える（紙面と開閉UIは共通） */
+.dossier-viewbar{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:-4px 0 14px;padding:8px 0 12px;border-bottom:1px solid var(--ui-border,#53606a)}
+.dossier-view-label{font:600 12px/1.4 system-ui,sans-serif;color:#cbd0d7;margin-right:5px}
+.dossier-viewbar .dossier-order{min-height:38px;padding:7px 14px;border:1px solid #757d88;border-radius:6px;background:transparent;color:#e5e8ee;font:600 13px/1.4 system-ui,sans-serif}
+.dossier-viewbar .dossier-order.active{background:#d7d0c2;border-color:#d7d0c2;color:#263241}
+.dossier-when{font-size:11px;color:inherit;opacity:.86;letter-spacing:0}
+.dossier-order-note{font:12px/1.65 system-ui,sans-serif;color:#bec5ce;margin:3px 0 14px}
+.dossier-timeline{border-left:2px solid #778c99;margin-left:7px;padding-left:16px}
+.dossier-timeline .dossier-entry{position:relative}
+.dossier-timeline .dossier-entry:before{content:"";position:absolute;top:22px;left:-23px;width:10px;height:10px;border-radius:100%;background:#b7a780;border:2px solid #263746;z-index:1}
+body.theme-light .dossier-view-label{color:#4c5864}
+body.theme-light .dossier-viewbar .dossier-order{background:#f1f0eb;color:#283745;border-color:#a6b0b8}
+body.theme-light .dossier-viewbar .dossier-order.active{background:#455d70;color:white;border-color:#455d70}
+body.theme-light .dossier-order-note{color:#56616c}
+body.theme-light .dossier-timeline{border-left-color:#97a7b1}
+body.theme-light .dossier-timeline .dossier-entry:before{background:#6a8293;border-color:#f6f5f0}
+@media(max-width:520px){.dossier-when{display:block;margin-top:3px}.dossier-timeline{margin-left:4px;padding-left:11px}.dossier-timeline .dossier-entry:before{left:-18px}}
+
+/* v8.2.1: character-name colors are fixed to their reference palettes in both themes. */
+#app .who-name[style*="#cb415a"],#app .player-choice-text strong[style*="#cb415a"],#app span[style*="color:#cb415a"]{color:#cb415a!important}
+#app .who-name[style*="#7ebeab"],#app .player-choice-text strong[style*="#7ebeab"],#app span[style*="color:#7ebeab"]{color:#7ebeab!important}
+</style></head><body><main><header><div class="topbar"><span class="eyebrow">CALL OF CTHULHU 6TH · KP-LESS · ORIGINAL SCENARIO</span><div class="theme-control"><span class="muted" id="headProgress">序章</span><button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="ライトモードに切り替える">☀ ライト</button></div></div><h1>余白に残る、きみの声</h1><div class="muted">失くした記録をたどる一日。そこには、誰かが守り続けた一行がある。</div><div class="reader-controls" role="group" aria-label="読みやすさの設定"><span class="reader-label">文字サイズ</span><button type="button" class="reader-btn" id="fontSmall" onclick="setReaderSize('small')" aria-pressed="false" title="本文を小さく">小</button><button type="button" class="reader-btn" id="fontNormal" onclick="setReaderSize('normal')" aria-pressed="true" title="本文を標準に">標準</button><button type="button" class="reader-btn" id="fontLarge" onclick="setReaderSize('large')" aria-pressed="false" title="本文を大きく">大</button><button type="button" class="reader-btn motion-toggle" id="motionToggle" onclick="toggleReducedMotion()" aria-pressed="false">動きを抑える OFF</button></div><div class="sound-controls" aria-label="音声設定"><button type="button" id="soundToggle" onclick="toggleSound()" aria-pressed="false">♪ 音声 OFF</button><label for="soundVolume">音量 <input id="soundVolume" type="range" min="0" max="100" value="30" oninput="setSoundVolume(this.value)"></label></div><div class="meter"><span id="progress" style="width:0%"></span></div></header><div id="app" class="card" aria-live="polite"></div><div class="footer"><div class="row"><button class="small" id="dossierOpen" onclick="openDossier()">調査資料台帳</button><button class="small" onclick="showHow()">遊び方・注意事項</button><button class="small" onclick="go('pair')">2つの記録を照合</button></div><div class="row"><label for="logStyle" style="display:inline-block;margin:0;font-size:12px">ログ形式</label><select id="logStyle" aria-label="ログの形式" style="width:auto;min-width:152px;padding:6px 8px;font-size:13px" onchange="setLogStyle(this.value)"><option value="json">JSON（セーブデータ）</option><option value="new">新版（アイコン付き）</option><option value="old">旧版（標準HTML）</option></select><button class="small" id="previewLogButton" onclick="previewHtmlLog()">プレビュー</button><button class="small" onclick="exportSelectedLog()">書き出す</button><button class="small" onclick="exportJsonSave()" title="進行・RP・ダイスのバックアップを保存">JSONバックアップ</button><button class="small" onclick="document.getElementById('loadSaveFile').click()">ロード</button><input id="loadSaveFile" type="file" accept=".json,.html,application/json,text/html" hidden onchange="loadSaveFile(this)"><button class="small" onclick="resetGame()">最初から</button></div></div><div id="saveStatus" role="status" class="save-indicator" style="margin-top:8px"></div><div id="toast" role="status" class="muted" style="margin-top:12px"></div></main><div id="dossierOverlay" class="dossier-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="dossierTitle" onclick="if(event.target===this)closeDossier()"><div class="dossier-window" tabindex="-1"><div class="dossier-head"><h2 id="dossierTitle">調査資料台帳</h2><button type="button" class="small" onclick="closeDossier()">閉じる ×</button></div><p class="dossier-help">入手した資料・聞き取った証言・現場で確認した事実を、自動で保存する調査資料台帳です。入手済みの紙面はすべて表示され、見出しを押すと折りたためます。未確認の情報やダイスの判定結果は表示されません。</p><div id="dossierContents"></div></div></div><script>
 'use strict';
 const KEY='yohaku_kpless_solo_v1_6_character_select';
-const fresh=()=>({diceVisuals:{},investigationNotes:{},pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
+const APP_VERSION='8.3';
+let saveWarning='';
+const fresh=()=>({diceVisuals:{},investigationNotes:{},investigationTimeline:[],pageHistory:[],phase:'setup',character:'',name1:'',route:'city',san:70,myth:0,found:[],spoken:[],checks:[],decision:'',detail:'',ending:'',leadChoice:'',witnessChoice:'',echoChoice:'',archiveIncidentChoice:'',witnessIncidentChoice:'',relationshipChoice:'',deductionAnswers:[],deductionHints:{},dice:null,skillRolls:{},skillTargets:{},growthRolls:{},history:[],logEntries:[],seenNarration:[],rpColor:'#cb415a',rpDraft:'',logStyle:'json'});
 let S;try{S=Object.assign(fresh(),JSON.parse(localStorage.getItem(KEY)||'{}'))}catch{S=fresh()}
-if(!S.saveFormatUpdated){S.logStyle='json';S.saveFormatUpdated=true;localStorage.setItem(KEY,JSON.stringify(S));}
+if(!S.saveFormatUpdated){S.logStyle='json';S.saveFormatUpdated=true;try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){saveWarning='ブラウザの保存領域を利用できません。JSONセーブを書き出してください。';}}
 const $=id=>document.getElementById(id), h=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ROUTES={
  city:{district:'瀬川区',library:'旧・瀬川区立図書室',witness:'森野 文江',location:'市街地の外れ',id:'瀬川区・整理番号26-1030-A',focus:'記録の時刻と欠落',key:'A-1148-余白'},
  hillside:{district:'青葉町',library:'旧・青葉町立図書館',witness:'三谷 晴代',location:'丘陵地の住宅街',id:'青葉町・整理番号26-1030-B',focus:'証言と聞こえない声',key:'B-1148-返声'}
 };
 const R=()=>ROUTES[S.route]||ROUTES.city;
-const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));render()};
+// 履歴には画像そのものを保存せず、画像の種類を残す。過去バージョンの履歴も互換的に圧縮する。
+function compactHistoryImages(){
+ if(!Array.isArray(S.pageHistory))return;
+ for(const item of S.pageHistory){
+  if(!item||typeof item.html!=='string')continue;
+  const matched=item.html.match(/scene-banner scene-([a-z]+)/);
+  if(!matched)continue;
+  item.imageKind ||= matched[1];
+  item.route ||= S.route;
+  item.html=item.html.replace(/(<div class="scene-banner[^>]*>\s*<img\s+src=")data:image\/[^"\s]+("[^>]*>)/, '$1$2');
+ }
+}
+function historyHtmlWithImage(item){
+ let html=String(item?.html||'');
+ if(!item?.imageKind)return html;
+ const source=(SCENE_BACKGROUNDS[item.route]||SCENE_BACKGROUNDS.city)?.[item.imageKind];
+ return source?html.replace(/(<div class="scene-banner[^>]*>\s*<img\s+src=")("[^>]*>)/,(_,a,b)=>a+source+b):html;
+}
+function persistState(){
+ try{compactHistoryImages();localStorage.setItem(KEY,JSON.stringify(S));saveWarning='';return true;}
+ catch(e){
+  saveWarning='自動保存に失敗しました。下の「JSONバックアップ」で進行記録を保存してください。';
+  const status=document.getElementById('saveStatus');if(status){status.textContent=saveWarning;status.setAttribute('role','alert');}
+  return false;
+ }
+}
+const save=()=>{persistState();render();};
 const record=t=>{
  S.history.push(t);if(!Array.isArray(S.logEntries))S.logEntries=[];
  const scene=S.character&&S.phase!=='setup'&&S.phase!=='pair'?S.route+'|'+S.phase:null;
@@ -625,7 +744,7 @@ function sceneSnapshot(){
  const root=$('storyContent');if(!root)return;
  const els=root.querySelectorAll('p,.quote,.clue');
  els.forEach(el=>{
-   if(el.closest('.rpbox')||el.closest('.rpdisplay')||el.closest('.evidence-board')||el.closest('.deduction-hint'))return;
+   if(el.closest('.rpbox')||el.closest('.rpdisplay')||el.closest('.evidence-board')||el.closest('.deduction-hint')||el.closest('.action-skill-outcome'))return;
    let val=(el.innerText||el.textContent||'').trim().replace(/\n{3,}/g,'\n\n');
    if(!val||val.length<7)return;
    const speaker=el.dataset.speaker||'KP';
@@ -644,13 +763,13 @@ function sceneSnapshot(){
    S.seenNarration.push(key);
    S.logEntries.push({channel:'main',name:speaker,text:spokenText,color:dialogue?'#bdb1d2':'#888888',timestamp:new Date().toISOString(),scene:sceneId,position,narration:true});
  });
- localStorage.setItem(KEY,JSON.stringify(S));
+ persistState();
 }
-function setRpDraft(v){S.rpDraft=v;localStorage.setItem(KEY,JSON.stringify(S))}
+function setRpDraft(v){S.rpDraft=v;persistState()}
 const CHARACTERS={myoga:{name:'明賀 数也',route:'city',color:'#cb415a',san:70},futami:{name:'二タ見 恒平',route:'hillside',color:'#7ebeab',san:85}};
 const LOG_AVATARS={"myoga":"data:image/png;base64,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","futami":"data:image/png;base64,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"};
 function playerAvatar(id,large=false){if(!CHARACTERS[id]||!LOG_AVATARS[id])return '';return `<img class="player-avatar${large?' large':''}" src="${LOG_AVATARS[id]}" alt="${h(CHARACTERS[id].name)}の顔アイコン">`}
-function chooseCharacter(id){const c=CHARACTERS[id];if(!c)return;S.character=id;S.name1=c.name;S.route=c.route;S.rpColor=c.color;S.san=c.san;S.myth=0;localStorage.setItem(KEY,JSON.stringify(S));render()}
+function chooseCharacter(id){const c=CHARACTERS[id];if(!c)return;S.character=id;S.name1=c.name;S.route=c.route;S.rpColor=c.color;S.san=c.san;S.myth=0;persistState();render()}
 function postRp(){
  const t=($('rpInput')?.value||'').trim();if(!t)return;
  S.logEntries ||= [];
@@ -688,7 +807,7 @@ function stepRP(i,delta){
  const next=Math.max(0,Math.min(max,position+delta));
  if(next===position)return;
  entry.position=next;entry.scene=S.route+'|'+S.phase;
- localStorage.setItem(KEY,JSON.stringify(S));render();
+ persistState();render();
  document.querySelector('.rp-inline[data-rp-index="'+i+'"]')?.scrollIntoView({block:'center',behavior:'instant'});
 }
 function beginEditRP(item){
@@ -709,7 +828,7 @@ function beginEditRP(item){
    const value=textarea.value.trim();if(!value){alert('空欄にはできません。削除する場合は×を押してください。');textarea.focus();return;}
    if(!S.logEntries?.[i]?.rp)return;
    S.logEntries[i].text=value;
-   localStorage.setItem(KEY,JSON.stringify(S));render();
+   persistState();render();
  });
  no.addEventListener('click',cancel);
  textarea.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.stopPropagation();cancel()}else if((ev.ctrlKey||ev.metaKey)&&ev.key==='Enter'){ev.preventDefault();yes.click()}});
@@ -816,7 +935,7 @@ function placeInlineRP(){
      if(!Number.isInteger(i)||!S.logEntries?.[i]?.rp)return;
      S.logEntries[i].position=Number(zone.dataset.position);
      S.logEntries[i].scene=S.route+'|'+S.phase;
-     localStorage.setItem(KEY,JSON.stringify(S));render();
+     persistState();render();
    };
    const onCancel=()=>stop();
    const onScroll=()=>{if(moving&&!frame)frame=requestAnimationFrame(paint)};
@@ -855,7 +974,7 @@ function archiveCurrentPage(){
  // 余分なRP挿入先等はそのまま残し、過去の状態を静的HTMLとして記録する。
  const captured=root.innerHTML;
  if(!captured)return;
- const item={phase:S.phase,title:stage(),html:captured,selected:pendingChoiceLabel||'',at:new Date().toISOString()};
+ const item={phase:S.phase,title:stage(),html:captured,route:S.route,selected:pendingChoiceLabel||'',at:new Date().toISOString()};
  S.pageHistory.push(item);
  if(S.pageHistory.length>35)S.pageHistory.shift();
 }
@@ -871,7 +990,7 @@ function showHistoryPage(){
  if(historyViewIndex<0){render();return;}
  const item=S.pageHistory?.[historyViewIndex];if(!item){historyViewIndex=-1;render();return;}
  const selected=item.selected?`<div class="history-answer">選んだ項目：<strong>${h(item.selected)}</strong></div>`:'';
- $('app').innerHTML=historyBar()+`<div class="history-readonly" inert><div id="storyContent">${item.html}</div></div>`+selected+`<p class="history-footnote">閲覧用の画面です。選択・ダイス・RPは変更されません。</p>`;
+ $('app').innerHTML=historyBar()+`<div class="history-readonly" inert><div id="storyContent">${historyHtmlWithImage(item)}</div></div>`+selected+`<p class="history-footnote">閲覧用の画面です。選択・ダイス・RPは変更されません。</p>`;
  $('headProgress').textContent=item.title+'（閲覧中）';
  $('progress').style.width=((({intro:10,archive:27,hall:43,witness:55,threshold:72,deduction:77,echo:78,choice:85,end:92,after:100})[item.phase])||0)+'%';
 }
@@ -891,6 +1010,8 @@ function go(p){
  if(S.phase!==p)archiveCurrentPage();
  pendingChoiceLabel='';
  S.phase=p;
+ if(p==='witness')noteInvestigationDiscovery('witness','witness');
+ if(p==='threshold')noteInvestigationDiscovery('site','threshold');
  inlineDiceOutcomes={};
  save();
  try{window.scrollTo({top:0,behavior:isReducedMotion()?'auto':'smooth'})}catch(e){/* スクロール非対応環境 */}
@@ -1028,8 +1149,8 @@ function opt(label,call,cl=''){const safeCall=String(call).replace(/&/g,'&amp;')
 function stage(){return ({setup:'準備',intro:'序章',archive:'第1章',hall:'第1章',witness:'第2章',threshold:'第3章',deduction:'第3章',echo:'第3章',choice:'第3章',end:'終章',after:'報酬',pair:'照合室'})[S.phase]||'記録'}
 function progress(){return ({setup:0,intro:10,archive:27,hall:43,witness:55,threshold:72,deduction:77,echo:80,choice:82,end:92,after:100,pair:100})[S.phase]||0}
 function who(){return h(S.name1.trim()||'あなた')}
-function settings(){const c=CHARACTERS[S.character];return frame('はじめに',para('時刻は2026年10月30日、金曜日の午前9時すぎ。あなたは通常勤務のなかで、古い記録の確認を任される。ここから始まるのは、どこかに記録されたはずの、ささやかな未解決事件だ。','本作は刑事の継続探索者一人用KPレスシナリオ。2つのルートは同じ時間帯に別々の場所で起こり、どちらも単独で結末まで遊べる。2つの記録を合わせると追加の真相編が開く。')+`<div class="note">2026年10月30日の勤務時間内に終了し、11月以降の別シナリオへ継続できる構成です。初期SANは参考値です。現在SANを確認して入力してください。</div><div class="choices"><button class="${S.character==='myoga'?'primary':''}" onclick="chooseCharacter('myoga')"><span class="player-choice">${playerAvatar('myoga',true)}<span class="player-choice-text"><strong style="color:#cb415a">明賀 数也</strong><br>瀬川区（記録・論理を中心に捜査）</span></span></button><button class="${S.character==='futami'?'primary':''}" onclick="chooseCharacter('futami')"><span class="player-choice">${playerAvatar('futami',true)}<span class="player-choice-text"><strong style="color:#7ebeab">二タ見 恒平</strong><br>青葉町（証言・聞き取りを中心に捜査）</span></span></button></div>`+(c?`<div class="subcard"><p><strong>選択中：<span style="color:${c.color}">${h(c.name)}</span></strong></p><p>担当：${h(R().id)} ／ ログ色：<span style="color:${c.color}">● 固定</span></p><p class="muted" style="font-size:13px">推奨技能：${S.character==='myoga'?'〈図書館〉〈心理学〉〈法律〉':'〈聞き耳〉〈精神分析〉〈言いくるめ〉'}</p></div><div class="fields"><div><label for="san">現在SAN</label><input id="san" type="number" min="0" max="99" value="${S.san}" onchange="setNumber('san',this.value)"></div><div><label for="myth">現在のクトゥルフ神話技能（%）</label><input id="myth" type="number" min="0" max="99" value="${S.myth}" onchange="setNumber('myth',this.value)"></div></div>`+opt('事件記録を開く','start()','primary'):`<p class="muted">探索者を選ぶと、担当事件と文字色が自動設定されます。</p>`))}
-function setField(k,v){S[k]=v;localStorage.setItem(KEY,JSON.stringify(S))}function setNumber(k,v){S[k]=Math.max(0,Math.min(99,Number(v)||0));localStorage.setItem(KEY,JSON.stringify(S))}
+function settings(){const c=CHARACTERS[S.character];return frame('はじめに',para('2026年10月30日、金曜日。午前9時を過ぎた庁舎で、あなたは古い記録の確認を任される。通常業務のなかで見つかった、ささやかな未解決事件。物語は、その一冊のファイルから始まる。')+`<section class="setup-guide" aria-label="シナリオについて"><h3>シナリオについて</h3><p>本作は、刑事の継続探索者ひとりで遊ぶKPレスシナリオです。明賀と二タ見は同じ時間帯に、それぞれ別の地域を捜査します。どちらのルートも単独で結末まで進められ、両方の記録を照合すると追加の真相編が開きます。</p><p>事件は10月30日の勤務時間内に終わり、11月以降の別シナリオにも継続できます。</p><p>初期SANは参考値です。探索者を選んだ後、現在SANを確認して入力してください。</p></section><div class="choices"><button class="${S.character==='myoga'?'primary':''}" onclick="chooseCharacter('myoga')"><span class="player-choice">${playerAvatar('myoga',true)}<span class="player-choice-text"><strong style="color:#cb415a">明賀 数也</strong><br>瀬川区（記録・論理を中心に捜査）</span></span></button><button class="${S.character==='futami'?'primary':''}" onclick="chooseCharacter('futami')"><span class="player-choice">${playerAvatar('futami',true)}<span class="player-choice-text"><strong style="color:#7ebeab">二タ見 恒平</strong><br>青葉町（証言・聞き取りを中心に捜査）</span></span></button></div>`+(c?`<div class="subcard"><p><strong>選択中：<span style="color:${c.color}">${h(c.name)}</span></strong></p><p>担当：${h(R().id)} ／ ログ色：<span style="color:${c.color}">● 固定</span></p><p class="muted" style="font-size:13px">推奨技能：${S.character==='myoga'?'〈図書館〉〈心理学〉〈法律〉':'〈聞き耳〉〈精神分析〉〈言いくるめ〉'}</p></div><div class="fields"><div><label for="san">現在SAN</label><input id="san" type="number" min="0" max="99" value="${S.san}" onchange="setNumber('san',this.value)"></div><div><label for="myth">現在のクトゥルフ神話技能（%）</label><input id="myth" type="number" min="0" max="99" value="${S.myth}" onchange="setNumber('myth',this.value)"></div></div>`+opt('事件記録を開く','start()','primary'):`<p class="muted">探索者を選ぶと、担当事件と文字色が自動設定されます。</p>`))}
+function setField(k,v){S[k]=v;persistState()}function setNumber(k,v){S[k]=Math.max(0,Math.min(99,Number(v)||0));persistState()}
 function start(){if(!CHARACTERS[S.character])return;record('事件への着手：'+who()+'／'+R().id+'／2026-10-30');go('intro')}
 function intro(){
  const opening=para(
@@ -1054,7 +1175,7 @@ const alternateArchives=[
 {id:'letter',title:'③ 未提出の封書',text:'封筒には差出人も消印もなく、便箋の裏にだけ古い紙の透かし模様がある。「遠くの誰かが、まだ答えを待っている」。その下には、行を変えて「ひとつの言葉は、二つの場所を通った」。そこで文章は途切れていた。添付書類のどれにも、この手紙の受領経緯は記されていない。',finding:'声の異常は、この町だけで完結した出来事とは限らない。'}
 ];
 const getArchives=()=>S.route==='city'?archives:alternateArchives;
-function collect(id){if(!S.found.includes(id)){S.found.push(id);record('資料を確認：'+getArchives().find(x=>x.id===id).title)}save()}
+function collect(id){if(!S.found.includes(id)){S.found.push(id);noteInvestigationDiscovery('archive-'+id,'archive');record('資料を確認：'+getArchives().find(x=>x.id===id).title)}save()}
 // 技能チェックは失敗しても必須情報を失わない。成功時のみ追加の考察・演出を開示する。
 const SKILL_CASES={
  city:[
@@ -1136,7 +1257,7 @@ function soundDiceStop(kind){
 function inlineDiceMarkup({notation='1D100',roll=null,kind='',label='',running=false}){
  const isD100=notation==='1D100';
  const numbers=running?(isD100?['?','?']:['?']):(isD100?[String(roll===100?0:Math.floor(roll/10)),String(roll%10)]:[String(roll)]);
- const faces=numbers.map((n,i)=>`<span class="inline-die ${notation==='1D6'?'d6':'d10'}${running?' rolling':''}${kind?' '+kind:''}" aria-hidden="true"><span>${n}</span></span>`).join('');
+ const faces=numbers.map((n,i)=>`<span class="inline-die ${notation==='1D6'?'d6':'d10'}${isD100?(i===0?' d100-tens':' d100-ones'):''}${running?' rolling':''}${kind?' '+kind:''}" aria-hidden="true"><span>${n}</span></span>`).join('');
  const result=running?'<span class="inline-dice-label">判定中…</span>':`<span class="inline-dice-result ${kind}">${notation==='1D100'?String(roll).padStart(2,'0'):roll}${label?' ／ '+h(label):''}</span>`;
  return `<span class="inline-dice" role="status" aria-live="polite">${faces}${result}</span>`;
 }
@@ -1212,6 +1333,7 @@ function rollSkill(id,trigger){
  const sceneText=grade==='クリティカル'?cfg.critical:grade==='ファンブル'?cfg.fumble:success?cfg.win:cfg.fail;
  showDiceRoll({anchorKey:'skill-'+id,trigger,title:'〈'+cfg.name+'〉',target:'技能値 '+target+'%',roll,kind:grade==='クリティカル'?'critical':grade==='ファンブル'?'fumble':success?'success':'failure',label:grade,onConfirm:()=>{
   S.skillRolls[id]={roll,target,success,grade};
+  if(success&&['library','law','hearing'].includes(id))noteInvestigationDiscovery('finding-'+id,S.phase);
   record(`〈${cfg.name}〉 ${roll}/${target}：${grade}${['クリティカル','ファンブル'].includes(grade)?'（CF成長対象）':''}`);
   S.logEntries.push({channel:'main',name:'KP',text:`【〈${cfg.name}〉${grade}】\n${sceneText}`,color:'#888888',timestamp:new Date().toISOString(),scene:S.route+'|'+S.phase,position:document.querySelectorAll('#storyContent > [data-narrative-index]').length,logEvent:true});
   save();
@@ -1251,8 +1373,20 @@ function actionSkill(id){
  const result=S.skillRolls?.[id],value=S.skillTargets?.[id]??cfg.base;
  const grade=result&&(result.roll<=5?'クリティカル':result.roll>=96?'ファンブル':result.grade||(result.success?'成功':'失敗'));
  const effect=grade==='クリティカル'?cfg.critical:grade==='ファンブル'?cfg.fumble:result?.success?cfg.win:cfg.fail;
- return `<div class="action-skill" data-action-skill="${id}" data-roll-anchor="skill-${id}"><p class="action-skill-context">${context.before}</p><div class="action-skill-title"><span class="action-skill-tag">ここで〈${cfg.name}〉</span><strong>${context.action}</strong></div><div class="row action-skill-controls"><label>技能値 <input aria-label="${cfg.name}技能値" type="number" min="1" max="99" style="width:72px" value="${value}" ${result?'disabled':''} onchange="setSkillTarget('${id}',this.value)"></label>${result?'':`<button class="small" onclick="rollSkill('${id}',this)">1D100で判定</button>`}<span class="dice-inline-slot" data-roll-slot="skill-${id}"></span></div>${result?`<div class="clue action-skill-result"><strong>出目 ${result.roll} / ${result.target} — ${grade}</strong>${grade==='クリティカル'||grade==='ファンブル'?' <span style="color:var(--gold)">・CF成長対象</span>':''}<div class="skill-effect">${formatRevealedText(effect)}</div></div>`:`<p class="action-skill-hint">この行動を試す場合は判定してください。振らなくても調査は進められます。</p>`}</div>`;
+ // 手掛かりを読んだ直後、同じ本文の中で行動・判定・結果を連続して読めるようにする。
+ // データ保存キー・ダイス表示アンカーは旧バージョンと共通。
+ return `<section class="action-skill story-skill" data-action-skill="${id}" data-roll-anchor="skill-${id}" aria-label="${cfg.name}での追加調査">
+ <p class="action-skill-context">${h(context.before)}</p>
+ <div class="action-skill-controls" aria-label="${cfg.name}の判定">
+ <span class="action-skill-tag">〈${cfg.name}〉</span>
+ <label class="story-skill-value">技能値 <input aria-label="${cfg.name}技能値" type="number" min="1" max="99" inputmode="numeric" value="${value}" ${result?'disabled':''} onchange="setSkillTarget('${id}',this.value)"></label>
+ ${result?'':`<button type="button" class="small story-skill-roll" onclick="rollSkill('${id}',this)">${h(context.action)} · 判定</button>`}
+ <span class="dice-inline-slot" data-roll-slot="skill-${id}"></span>
+ </div>
+ ${result?`<div class="action-skill-outcome">${grade==='クリティカル'||grade==='ファンブル'?'<div class="story-skill-result-label">CF成長対象</div>':''}<div class="skill-effect">${formatRevealedText(effect)}</div></div>`:''}
+ </section>`;
 }
+
 function skillForArchive(id){
  return S.route==='city'?(id==='receipt'?'library':id==='timeline'?'law':null):(id==='receipt'?'hearing':null);
 }
@@ -1264,7 +1398,7 @@ function archive(){
  '午前10時を過ぎた。書庫の空調は少し強すぎるらしく、棚の奥にいると指先が冷えてくる。古い紙と埃の匂いが混じった机に、あなたは照会記録の3点を並べた。表紙を閉じてしまえば、ただの書類整理で終わる。けれど、それでは欠けた結末は埋まらない。',
  S.route==='city'?'受領票、時系列表、封書。どれも単独では不自然と断定しきれない。ところが時刻と書類の作成順を突き合わせると、同じ出来事について記したはずの数字が、きれいに噛み合わない。誤記なら誤記だと示せるはずだ。':'録音の記録簿、面会の記録、封書。耳にしたはずの声が機械には残らず、それでも文字の形で報告書に残っている。証言者が嘘をついたと決めつけるのは早い。何が記録され、何が記録されなかったかを分けて考える必要がある。',
  S.route==='city'?'時刻、受領者、文書の作成順。あなたはそれぞれを分けて書き出した。以前の捜査でも、わずかな前提の違いが推理全体を変えたことがある。今回も、まずは書類が示していることだけを確かめたい。':'音声が残っていないことと、当時誰も話さなかったことは同じではない。以前の捜査であなたが仲間の証言を一つずつ確かめたように、今回も録音記録と聞き取り票を分けて見ていく必要がある。',
- 'まずは3点の資料を確認しよう。詳しい調査ができる箇所では、資料を開いた直後に、その行動に対応する技能判定が表示される。'
+ 'まずは3点の資料を確かめよう。記録に気になる箇所があれば、その場でさらに詳しく調べられる。'
  )+`<div class="subcard investigation-list">${getArchives().map(x=>`<div class="investigation-choice"><button onclick="collect('${x.id}')">${S.found.includes(x.id)?'✓ ':''}${x.title}</button>${S.found.includes(x.id)?`<div class="revealed-dialogue" style="margin:9px 5px 18px">${formatRevealedText(x.text)}</div><div class="clue">調査メモ：${x.finding}</div>${skillForArchive(x.id)?actionSkill(skillForArchive(x.id)):''}`:''}</div>`).join('')}</div>`+para('書類を並べ直すと、日付の食い違いと途中で止まった筆跡が、先ほどよりはっきり見えてきた。単なる整理作業のはずだったが、これを完了させるには、当時何が起きたのかをもう少し調べる必要がある。',
  S.route==='city'?'あなたは、確かめられた部分と不明な部分を分けてメモに残した。空欄を埋めるために、根拠のない結論を書くことだけは避けたい。':'あなたは、文字に起こされた言葉の前後に目を通した。録音で確かめられないのなら、次は当時その声を聞いた人に話を聞こう。');
  return frame('3つの資料',body,opt(S.found.length<3?'3つの資料をすべて読むと進めます':'資料の照合を終える',S.found.length<3?'void(0)':'go("hall")',S.found.length===3?'primary':''));
@@ -1454,7 +1588,7 @@ const alternateDialogues=[
 {id:'wish',title:'声の内容について尋ねる',text:'「『借りたままで、ごめんなさい』」。言い終えた三谷は、なぜかほっとしたように息を吐いた。「私に謝っていたわけじゃないんでしょうね。でもあのとき、誰かがやっと言えた言葉なんだと感じたんです」。笑おうとして、うまく笑えなかった。',memo:'声は特定の受け手を呼んでいない。誰かへ届こうとする謝罪だった。'}
 ];
 const getDialogues=()=>S.route==='city'?dialogues:alternateDialogues;
-function speak(id){if(!S.spoken.includes(id)){S.spoken.push(id);record('証言：'+getDialogues().find(x=>x.id===id).title)}save()}
+function speak(id){if(!S.spoken.includes(id)){S.spoken.push(id);noteInvestigationDiscovery('testimony-'+id,'witness');record('証言：'+getDialogues().find(x=>x.id===id).title)}save()}
 function witness(){
  let body=para(
  `10月30日の午後1時すぎ。${R().location}へ向かう道には、乾いた秋風が吹いていた。住宅街には洗濯物の揺れる軒先が続き、遠くから子どもの声が聞こえる。手元の資料にある不可解な記録と、目の前の穏やかな風景は、まだうまく結びつかなかった。`,
@@ -1787,13 +1921,55 @@ function noteRouteKey(){return S.character||S.route||'general';}
 function noteStore(){S.investigationNotes ||= {};const k=noteRouteKey();S.investigationNotes[k] ||= {};return S.investigationNotes[k];}
 function updateNote(key,value){
  const notes=noteStore();notes[key]=String(value);
- try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){console.warn('捜査ノートの保存に失敗しました',e);}
+ try{persistState();}catch(e){console.warn('捜査ノートの保存に失敗しました',e);}
  const status=document.getElementById('notesSaved-'+key);
  if(status)status.textContent='自動保存済み';
 }
 // 旧バージョンからの互換呼び出し。記録と資料は同じ画面に集約。
 function openNotes(){openDossier();}
 function closeNotes(){closeDossier();}
+// v8.2: 入手順は新規取得時に記録。以前のセーブでは既存の記録から順序を復元する。
+function noteInvestigationDiscovery(id,phase){
+ S.investigationTimeline ||= [];
+ if(S.investigationTimeline.some(e=>e.id===id))return;
+ const place=SCENE_CONTEXT[phase]||SCENE_CONTEXT.archive;
+ S.investigationTimeline.push({id,phase,place:place[0],time:place[1],seq:S.investigationTimeline.length});
+}
+const INVESTIGATION_PHASE_ORDER={archive:1,hall:2,witness:3,threshold:4,deduction:5,echo:6,choice:7,end:8,after:9};
+function dossierRecordPhase(d){
+ if(d.id.startsWith('archive-'))return 'archive';
+ if(d.id.startsWith('testimony-')||d.id==='witness')return 'witness';
+ if(d.id==='site')return 'threshold';
+ if(d.id.startsWith('finding-'))return d.id==='finding-hearing'?'archive':'archive';
+ return 'archive';
+}
+function dossierDiscoveryMetadata(records){
+ const saved=Array.isArray(S.investigationTimeline)?S.investigationTimeline:[];
+ const entries=new Map(saved.filter(e=>e&&typeof e.id==='string').map(e=>[e.id,e]));
+ const history=Array.isArray(S.history)?S.history:[];
+ const titleMap=new Map([...getArchives().map(a=>['archive-'+a.id,'資料を確認：'+a.title]),...getDialogues().map(d=>['testimony-'+d.id,'証言：'+d.title])]);
+ const implicitIndex=id=>{
+  const text=titleMap.get(id);
+  if(text){const i=history.indexOf(text);if(i!==-1)return i;}
+  if(id.startsWith('archive-'))return 1000+Math.max(0,(S.found||[]).indexOf(id.slice(8)));
+  if(id==='witness')return 2000;
+  if(id.startsWith('testimony-'))return 2100+Math.max(0,(S.spoken||[]).indexOf(id.slice(10)));
+  if(id==='site')return 3000;
+  if(id.startsWith('finding-'))return id==='finding-hearing'?1400:1500+(id==='finding-law'?1:0);
+  return 9999;
+ };
+ const hasCompleteTimeline=records.every(d=>entries.has(d.id));
+ return records.map((d,i)=>{
+  const event=entries.get(d.id),phase=event?.phase||dossierRecordPhase(d);
+  const [place,time]=SCENE_CONTEXT[phase]||SCENE_CONTEXT.archive;
+  return {...d,discoveryPhase:phase,discoveryPlace:event?.place||place,discoveryTime:event?.time||time,
+   discoveryOrder:event?Number(event.seq)||0:implicitIndex(d.id),discoveryExact:Boolean(event),
+   // 旧データでは記録の正確な取得順を保証できないため場面・履歴を優先する。
+   legacyOrder:implicitIndex(d.id),initialIndex:i,hasCompleteTimeline};
+ });
+}
+let dossierOrder='category';
+function setDossierOrder(order){if(!['category','chronological'].includes(order))return;dossierOrder=order;renderDossierResults();}
 let dossierFilter='all',dossierQuery='';
 function investigationRecords(){
  const records=dossierDocuments().map(d=>{
@@ -1817,13 +1993,23 @@ function openDossier(){
 function closeDossier(){const overlay=$('dossierOverlay');overlay.hidden=true;if(dossierPreviousFocus?.isConnected)dossierPreviousFocus.focus();}
 function filteredDossierRecords(){
  const word=dossierQuery.trim().toLocaleLowerCase();
- return investigationRecords().filter(d=>(dossierFilter==='all'||d.group===dossierFilter)&&(!word||[d.title,d.body,d.detail,d.group].join(' ').toLocaleLowerCase().includes(word)));
+ const matched=investigationRecords().filter(d=>(dossierFilter==='all'||d.group===dossierFilter)&&(!word||[d.title,d.body,d.detail,d.group].join(' ').toLocaleLowerCase().includes(word)));
+ const records=dossierDiscoveryMetadata(matched);
+ if(dossierOrder==='chronological'){
+  return records.sort((a,b)=>{
+   // 結果が全件記録済みなら実際の取得順。旧セーブは章と取得履歴を使う。
+   if(a.hasCompleteTimeline&&b.hasCompleteTimeline)return a.discoveryOrder-b.discoveryOrder||a.initialIndex-b.initialIndex;
+   return (INVESTIGATION_PHASE_ORDER[a.discoveryPhase]||99)-(INVESTIGATION_PHASE_ORDER[b.discoveryPhase]||99)||a.legacyOrder-b.legacyOrder||a.initialIndex-b.initialIndex;
+  });
+ }
+ return records;
 }
 function renderDossier(){
  const total=investigationRecords().length;
  const categories=['all','資料','証言','現場'];
  $('dossierContents').innerHTML=`<div class="dossier-library-heading"><div class="dossier-library-label">INVESTIGATION ARCHIVE <span>／ 調査記録</span></div><div class="dossier-library-summary"><div><strong>${h(R().district)}の調査資料</strong><p>${h(S.name1||'探索者')}が確認した情報を収録</p></div><span class="dossier-library-stamp">収録 ${total} 件</span></div></div>
  <div class="dossier-library-tools"><div class="dossier-library-tabs" role="group" aria-label="資料の種類">${categories.map(group=>`<button type="button" class="records-filter${dossierFilter===group?' active':''}" aria-pressed="${dossierFilter===group}" data-group="${group}" onclick="setDossierFilter('${group}')">${group==='all'?'全資料':group}</button>`).join('')}</div><label class="dossier-library-search" for="dossierSearch"><span>資料を探す</span><input type="search" id="dossierSearch" autocomplete="off" placeholder="表題・人物・キーワード" value="${h(dossierQuery)}" oninput="setDossierQuery(this.value)"></label></div>
+ <div class="dossier-viewbar" role="group" aria-label="資料の並べ方"><span class="dossier-view-label">並べ方</span><button type="button" class="dossier-order${dossierOrder==='category'?' active':''}" aria-pressed="${dossierOrder==='category'}" onclick="setDossierOrder('category')">分類別</button><button type="button" class="dossier-order${dossierOrder==='chronological'?' active':''}" aria-pressed="${dossierOrder==='chronological'}" onclick="setDossierOrder('chronological')">入手順</button></div>
  <div id="dossierResults"></div>`;
  renderDossierResults();
 }
@@ -1832,13 +2018,14 @@ function renderDossierResults(){
  const all=investigationRecords();
  const shown=filteredDossierRecords();
  const sheet=d=>`<details class="dossier-entry" data-record-id="${h(d.id)}" ${dossierClosed.has(d.id)?'':'open'} ontoggle="toggleDossierEntry(this.dataset.recordId,this.open)">
-   <summary><span class="dossier-entry-meta">調査資料 ／ ${h(d.group)}</span><span class="dossier-entry-title">${h(d.title)}</span><span class="dossier-entry-arrow" aria-hidden="true">⌄</span></summary>
+   <summary><span class="dossier-entry-meta">調査資料 ／ ${h(d.group)}${dossierOrder==='chronological'?` <span class="dossier-when">・ ${h(d.discoveryTime)} ／ ${h(d.discoveryPlace)}</span>`:''}</span><span class="dossier-entry-title">${h(d.title)}</span><span class="dossier-entry-arrow" aria-hidden="true">⌄</span></summary>
    <div class="dossier-entry-content"><p>${h(d.body)}</p>${d.detail?`<p class="dossier-note"><strong>確認できたこと</strong>：${h(d.detail)}</p>`:''}</div>
   </details>`;
  const legacy=Object.entries(noteStore()).filter(([key,value])=>String(value||'').trim());
  const oldSheet=legacy.length&&dossierFilter==='all'&&!dossierQuery.trim()?`<details class="dossier-old-notes"><summary>以前に入力したメモ（${legacy.length}件）を確認</summary><div class="dossier-compare">${legacy.map(([key,val])=>`<article class="dossier-sheet"><div class="dossier-sheet-kind">旧メモ</div><h3>${h(key==='free'?'自由メモ':all.find(d=>d.id===key)?.title||key)}</h3><p>${h(val)}</p></article>`).join('')}</div></details>`:'';
- container.innerHTML=`<div class="dossier-bulk-actions"><span class="dossier-count">${shown.length}件の資料を収録</span><button type="button" class="small" onclick="setAllDossierOpen(true)">全件を開く</button><button type="button" class="small" onclick="setAllDossierOpen(false)">全件を閉じる</button></div>${shown.length?`<div class="dossier-entries">${shown.map(sheet).join('')}</div>`:`<div class="dossier-empty">${all.length?'条件に合う記録はありません。検索条件を変更してください。':'まだ入手した情報はありません。調査を進めると自動で追加されます。'}</div>`}${oldSheet}`;
+ container.innerHTML=`<div class="dossier-bulk-actions"><span class="dossier-count">${shown.length}件の資料を収録</span><button type="button" class="small" onclick="setAllDossierOpen(true)">全件を開く</button><button type="button" class="small" onclick="setAllDossierOpen(false)">全件を閉じる</button></div>${shown.length?`${dossierOrder==='chronological'&&shown.some(d=>!d.discoveryExact)?'<p class="dossier-order-note">以前のセーブに取得順の記録がない情報は、調査した場面と残っている履歴をもとに並べています。</p>':''}<div class="dossier-entries${dossierOrder==='chronological'?' dossier-timeline':''}">${shown.map(sheet).join('')}</div>`:`<div class="dossier-empty">${all.length?'条件に合う記録はありません。検索条件を変更してください。':'まだ入手した情報はありません。調査を進めると自動で追加されます。'}</div>`}${oldSheet}`;
  const buttons=$('dossierContents').querySelectorAll('.records-filter');buttons.forEach(b=>{b.classList.toggle('active',b.dataset.group===dossierFilter);b.setAttribute('aria-pressed',String(b.dataset.group===dossierFilter));});
+ $('dossierContents').querySelectorAll('.dossier-order').forEach(b=>{const active=b.textContent.trim()===(dossierOrder==='category'?'分類別':'入手順');b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('dossierOverlay').hidden)closeDossier()}});
 
@@ -1888,7 +2075,7 @@ function refreshSceneBackdrop(){
  document.body.dataset.sceneLight=profile;
 }
 
-function render(){updateReaderControls();applyTheme();refreshSceneBackdrop();let map={setup:settings,intro,archive,hall,witness,threshold,deduction,echo,choice,end,after,pair};$('app').innerHTML=historyBar()+'<div id="storyContent">'+(S.phase!=='setup'&&S.phase!=='pair'&&CHARACTERS[S.character]?`<div class="active-character" style="--rp-color:${CHARACTERS[S.character].color}">${playerAvatar(S.character)}<span><span class="who-name" style="color:${CHARACTERS[S.character].color}">${h(CHARACTERS[S.character].name)}</span><br><span class="muted" style="font-size:12px">${h(R().district)}・個別捜査記録</span></span></div>`:'')+(map[S.phase]||settings)()+'</div>'+rpWidget();$('progress').style.width=progress()+'%';$('headProgress').textContent=stage();if($('saveStatus'))$('saveStatus').textContent=S.phase==='setup'?'開始前・設定は自動保存されます':'自動保存中：'+(S.name1||'探索者')+'／'+stage()+'（次回もここから再開）';if($('logStyle'))$('logStyle').value=['json','new','old'].includes(S.logStyle)?S.logStyle:'json';if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';if($('dossierOpen'))$('dossierOpen').hidden=!S.character;if(!$('dossierOverlay').hidden)renderDossier();placeInlineRP();sceneSnapshot();restoreInlineDiceResult();soundUI();updateAmbientScene();}
+function render(){updateReaderControls();applyTheme();refreshSceneBackdrop();let map={setup:settings,intro,archive,hall,witness,threshold,deduction,echo,choice,end,after,pair};$('app').innerHTML=historyBar()+'<div id="storyContent">'+(S.phase!=='setup'&&S.phase!=='pair'&&CHARACTERS[S.character]?`<div class="active-character" style="--rp-color:${CHARACTERS[S.character].color}">${playerAvatar(S.character)}<span><span class="who-name" style="color:${CHARACTERS[S.character].color}">${h(CHARACTERS[S.character].name)}</span><br><span class="muted" style="font-size:12px">${h(R().district)}・個別捜査記録</span></span></div>`:'')+(map[S.phase]||settings)()+'</div>'+rpWidget();$('progress').style.width=progress()+'%';$('headProgress').textContent=stage();if($('saveStatus'))$('saveStatus').textContent=saveWarning|| (S.phase==='setup'?'開始前・設定は自動保存されます':'自動保存中：'+(S.name1||'探索者')+'／'+stage()+'（次回もここから再開）');if($('logStyle'))$('logStyle').value=['json','new','old'].includes(S.logStyle)?S.logStyle:'json';if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';if($('dossierOpen'))$('dossierOpen').hidden=!S.character;if(!$('dossierOverlay').hidden)renderDossier();placeInlineRP();sceneSnapshot();restoreInlineDiceResult();soundUI();updateAmbientScene();}
 function showHow(){alert('【遊び方】\n2026年10月30日の通常勤務中に、所属先で別々の記録を扱うソロシナリオです。別の探索者が同時にもうひとつの地域を選んで通過しても矛盾しません。\n画面に出る文章を読み、選択肢を押して進みます。選んだ箇所は自動保存されます。\nSANチェックは画面で判定・記録できます。\n場面の間に探索者自身のRPを挟んでも構いません。調査資料台帳から、確認済みの資料や証言を読み返せます。\n場所と時刻は情景画像の下に表示されます。音声は上部のボタンでON/OFFできます（初期OFF）。\n技能ロール01～05はクリティカル、96～100はファンブルです。CF技能は終了時に成長判定ができます。')}
 function downloadFile(name,contents,type){const a=document.createElement('a');const url=URL.createObjectURL(new Blob([contents],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),4000)}
 function orderedLogEntries(){
@@ -1920,12 +2107,17 @@ function orderedLogEntries(){
  });
  flush();return out;
 }
-function setLogStyle(style){S.logStyle=['json','new','old'].includes(style)?style:'json';localStorage.setItem(KEY,JSON.stringify(S));if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';}
+function setLogStyle(style){S.logStyle=['json','new','old'].includes(style)?style:'json';persistState();if($('previewLogButton'))$('previewLogButton').hidden=S.logStyle==='json';}
 const SAVE_FORMAT='yohaku-kpless-save';
-function makeSaveData(){return {format:SAVE_FORMAT,version:1,scenario:'余白に残る、きみの声',savedAt:new Date().toISOString(),state:JSON.parse(JSON.stringify(S))};}
+function makeSaveData(){compactHistoryImages();return {format:SAVE_FORMAT,version:1,appVersion:APP_VERSION,scenario:'余白に残る、きみの声',savedAt:new Date().toISOString(),state:JSON.parse(JSON.stringify(S))};}
 function exportJsonSave(){
  const data=JSON.stringify(makeSaveData(),null,2);
- downloadFile(`余白に残るきみの声_${S.name1||'未選択'}_セーブ.json`,data,'application/json;charset=utf-8');
+ downloadFile(`余白に残るきみの声_${S.name1||'未選択'}_セーブ_v${APP_VERSION}.json`,data,'application/json;charset=utf-8');
+}
+function downloadPreviousSave(reason){
+ if(!S.character && !(S.logEntries||[]).length)return;
+ const data=JSON.stringify(makeSaveData(),null,2);
+ downloadFile(`余白に残るきみの声_${S.name1||'探索者'}_${reason}_退避.json`,data,'application/json;charset=utf-8');
 }
 function exportSelectedLog(){if(S.logStyle==='json')exportJsonSave();else exportHtmlLog();}
 async function loadSaveFile(input){
@@ -1942,9 +2134,11 @@ async function loadSaveFile(input){
   if(!payload||payload.format!==SAVE_FORMAT||payload.version!==1||!payload.state||typeof payload.state!=='object'||Array.isArray(payload.state))throw Error('対応していないセーブ形式です。');
   const state=payload.state;
   if(!['setup','intro','archive','hall','witness','threshold','deduction','echo','choice','end','after','pair'].includes(state.phase)|| !['','myoga','futami'].includes(state.character)||!['city','hillside'].includes(state.route)||!Array.isArray(state.logEntries)||!Array.isArray(state.found)||!Array.isArray(state.spoken)||!Array.isArray(state.checks))throw Error('セーブデータの内容が不正です。');
-  if(!confirm('現在のプレイ状況を読み込んだデータで上書きします。続けますか？'))return;
+  const fromVersion=payload.appVersion||'旧版（バージョン未記録）';
+  if(!confirm('現在のプレイ状況を読み込んだデータで上書きします。\n\n読み込むセーブ：'+fromVersion+'／'+(state.name1||'探索者')+'／'+state.phase+'\n\n現在の記録は上書き前にJSONとして退避します。続けますか？'))return;
+  try{downloadPreviousSave('ロード前')}catch(e){alert('ロード前のバックアップを作成できませんでした。JSONを書き出してから再試行してください。');return;}
   S=Object.assign(fresh(),state);S.logStyle='json';historyViewIndex=-1;save();
-  $('toast').textContent='セーブデータを読み込みました。';
+  $('toast').textContent=saveWarning||('セーブデータ（'+fromVersion+'）を読み込みました。発言・判定・進行地点をご確認ください。');
  }catch(err){alert('ロードできませんでした：'+err.message)}
 }
 function validColor(color){return /^#[0-9a-fA-F]{6}$/.test(color||'')?color:'#888888'}
@@ -2094,7 +2288,11 @@ function generateHtmlLogWithSave(style){
 }
 function previewHtmlLog(){if(S.logStyle==='json')return;const doc=generateHtmlLog(S.logStyle);const blob=new Blob([doc],{type:'text/html;charset=utf-8'});const u=URL.createObjectURL(blob);const w=window.open(u,'_blank');if(!w){alert('プレビューがブロックされました。HTMLログを書き出して開いてください。')}setTimeout(()=>URL.revokeObjectURL(u),60000)}
 function exportHtmlLog(){const style=S.logStyle==='old'?'old':'new';downloadFile(`余白に残るきみの声_${S.name1||'探索者'}_${style==='new'?'新版':'旧版'}ログ.html`,generateHtmlLogWithSave(style),'text/html;charset=utf-8')}
-function resetGame(){if(confirm('プレイ記録を消して最初から始めますか？')){S=fresh();save()}}
+function resetGame(){
+ if(!confirm('プレイ記録・RP・判定ログを消去して最初から始めます。\n現在の進行状況はJSONバックアップとして書き出します。続けますか？'))return;
+ try{downloadPreviousSave('リセット前')}catch(e){alert('バックアップを作成できませんでした。先にJSONを書き出してください。');return;}
+ S=fresh();historyViewIndex=-1;save();
+}
 // 生還報酬は最終画面のボタンで初めて振る。保存途中からの再開時にも自動処理はしない。
 render();
 </script></body></html>
